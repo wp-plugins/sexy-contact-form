@@ -10,7 +10,7 @@ Sexy Contact Form - The Sexiest way to get contacted!
 
 == Description ==
 
-[GSpeech](http://2glux.com/projects/sexy-contact-form) - The Sexiest way to get contacted! You will be surprised by count of all the possible features!
+[Sexy Contact Form](http://2glux.com/projects/sexy-contact-form) - The Sexiest way to get contacted! You will be surprised by count of all the possible features!
 
 = See = 
 [Live Demo](http://2glux.com/projects/sexy-contact-form/demo)  

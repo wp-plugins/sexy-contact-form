@@ -1,7 +1,7 @@
 === Sexy Contact Form ===
 Contributors: 2glux
 Author: 2GLux
-Tags: contact, form, contact form, feedback, email, ajax, captcha, multilingual, post, posts, widget, shortcode
+Tags: contact, form, contact form, feedback, email, ajax, captcha, multilingual, post, Posts, widget, shortcode, html5, html, css, css3, shortcode, network, social, society, text, javascript, jquery, plugin, plugins, page, pages, ajax, content, simple, wordpress
 Requires at least: 3.5
 Tested up to: 3.5
 Stable tag: 0.9.1

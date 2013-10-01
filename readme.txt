@@ -19,12 +19,10 @@ Sexy Contact Form - The Sexiest way to get contacted!
 
 
 ### Features:
-* Multiple forms on same page
-* All texts are fully customizable
+* All texts are fully customizable. You can controll them throgh administrator. No need to modify text files.
 * Customizable look and feel with live preview - Create your own skin using our sexy Template Creator. [See Demo](http://2glux.com/projects/sexy-contact-form/demo-backend)
-* Flexible field types: name, email, phone, address, url, number, textarea, select, multiple select, checkbox, radio, file upload, captcha
+* Flexible field types: name, email, phone, address, url, number, textarea, select, multiple select, checkbox, radio
 * Completely new checkbox, radio selection effect, implemented special for "SEXY" extensions.
-* Flexible File Upload: Multiple file selection, drag&drop support, costum file types support, customizable validation messages, upload max&min size, etc...
 * Load countries list (239 countries)
 * Flexible and user friendly interface for inputting checkbox,radio/select options.
 * Set pre-checked/selected options for checkbox,radio/select types.
@@ -40,6 +38,13 @@ Sexy Contact Form - The Sexiest way to get contacted!
 * 6 beautiful skins. [See demo](http://2glux.com/projects/sexy-contact-form/demo)
 * Very easy to install and configure
 
+### PRO Features:
+* Flexible File Upload: Multiple file selection, drag&drop support, costum file types support, customizable validation messages, upload max&min size, etc...
+* Captcha support
+* Unlimited forms
+* Unlimited fields
+* Multiple forms on same page
+
 ###IMPORTANT: If you think you found a bug in Sexy Contact Form or have any problem or question concerning it, do not hesitate to contact us at [info@2glux.com](mailto:info@2glux.com).
 
 
@@ -52,6 +57,8 @@ Please `use` [Support Forum](http://2glux.com/forum/simple-contact-form) for you
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
 You will find 'Sexy Contact Form' menu in your WordPress admin panel.
+
+Use it and be happy!
 
 == Changelog ==
 

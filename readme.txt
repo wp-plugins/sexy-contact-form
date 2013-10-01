@@ -45,3 +45,8 @@ Sexy Contact Form - The Sexiest way to get contacted!
 
 ### Support:
 Please `use` [Support Forum](http://2glux.com/forum/simple-contact-form) for your questions and support requests!
+
+== Changelog ==
+
+= V 0.9.1 - 01.10.2013 =
+* Initial release

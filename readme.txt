@@ -50,6 +50,7 @@ Please `use` [Support Forum](http://2glux.com/forum/simple-contact-form) for you
 
 1. Upload the entire sexy-contact-form folder to the /wp-content/plugins/ directory, or upload the .zip package through Plugins->Add New->Upload.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
+
 You will find 'Sexy Contact Form' menu in your WordPress admin panel.
 
 == Changelog ==

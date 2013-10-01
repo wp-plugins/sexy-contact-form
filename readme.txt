@@ -30,7 +30,7 @@ Sexy Contact Form - The Sexiest way to get contacted!
 * Set pre-checked/selected options for checkbox,radio/select types.
 * Multiple email recipients, BCC, reply to email, from email
 * Automatically fill in User name and email if logged in
-* Allows page redirect to URL or menu item after sending email
+* Allows page redirect to URL or menu item after sending email.
 * Send copy to sender
 * Set all fields as required or not
 * Ajax based - no page reload

@@ -14,8 +14,8 @@ Sexy Contact Form - The Sexiest way to get contacted!
 
 = See = 
 [Live Demo](http://2glux.com/projects/sexy-contact-form/demo) 
-[Template Creator Demo](http://2glux.com/projects/sexy-contact-form/demo-backend)  
-[Documentation](http://2glux.com/projects/sexy-contact-form/documentation)  
+[Template Creator Demo](http://2glux.com/projects/sexy-contact-form/demo-backend) 
+[Documentation](http://2glux.com/projects/sexy-contact-form/documentation) 
 [Support Forum](http://2glux.com/forum/simple-contact-form)
 
 

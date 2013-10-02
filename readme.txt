@@ -13,7 +13,8 @@ Sexy Contact Form - The Sexiest way to get contacted!
 [Sexy Contact Form](http://2glux.com/projects/sexy-contact-form) - The Sexiest way to get contacted! You will be surprised by count of all the possible features!
 
 = See = 
-[Live Demo](http://2glux.com/projects/sexy-contact-form/demo)  
+[Live Demo](http://2glux.com/projects/sexy-contact-form/demo) 
+[Template Creator Demo](http://2glux.com/projects/sexy-contact-form/demo-backend)  
 [Documentation](http://2glux.com/projects/sexy-contact-form/documentation)  
 [Support Forum](http://2glux.com/forum/simple-contact-form)
 
@@ -64,3 +65,16 @@ Use it and be happy!
 
 = V 0.9.1 - 01.10.2013 =
 * Initial release
+
+== Screenshots == 
+
+1. Gray template
+2. Gray template in post
+3. Black template
+4. Blue template
+5. Red template
+6. Template creator
+7. Fields drag&drop
+8. Form options
+9. Orange template
+10. Poison green template

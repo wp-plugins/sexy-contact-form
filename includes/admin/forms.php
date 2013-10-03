@@ -55,7 +55,7 @@ $sql =
 				st.id AS template_id
 			FROM ".$wpdb->prefix."sexy_forms  sp
 			LEFt JOIN ".$wpdb->prefix."sexy_fields AS sf ON sf.id_form=sp.id
-			LEFT JOIN  ".$wpdb->prefix."contact_templates AS st ON st.id=sp.id_template 
+			LEFT JOIN  ".$wpdb->prefix."sexy_contact_templates AS st ON st.id=sp.id_template 
 			WHERE 1 
 		";
 if($filter_state == 1)

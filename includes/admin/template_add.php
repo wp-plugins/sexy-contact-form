@@ -8,7 +8,7 @@ if($id != 0) {
 }
 
 //get template sarray
-$sql = "SELECT name, id FROM ".$wpdb->prefix."contact_templates";
+$sql = "SELECT name, id FROM ".$wpdb->prefix."sexy_contact_templates";
 $templates = $wpdb->get_results($sql);
 ?>
 <form action="admin.php?page=sexyforms&act=submit_data&holder=templates" method="post" id="wpscf_form">

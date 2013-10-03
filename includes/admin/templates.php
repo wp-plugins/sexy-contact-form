@@ -12,7 +12,7 @@ if($task == 'unpublish') {
 		foreach($ids as $id) {
 			$idk = (int)$id;
 			if($idk != 0) {
-				$sql = "UPDATE ".$wpdb->prefix."contact_templates SET `published` = '0' WHERE `id` = '".$idk."'";
+				$sql = "UPDATE ".$wpdb->prefix."sexy_contact_templates SET `published` = '0' WHERE `id` = '".$idk."'";
 				$wpdb->query($sql);
 			}
 		}
@@ -24,7 +24,7 @@ if($task == 'publish') {
 		foreach($ids as $id) {
 			$idk = (int)$id;
 			if($idk != 0) {
-				$sql = "UPDATE ".$wpdb->prefix."contact_templates SET `published` = '1' WHERE `id` = '".$idk."'";
+				$sql = "UPDATE ".$wpdb->prefix."sexy_contact_templates SET `published` = '1' WHERE `id` = '".$idk."'";
 				$wpdb->query($sql);
 			}
 		}
@@ -36,7 +36,7 @@ if($task == 'delete') {
 		foreach($ids as $id) {
 			$idk = (int)$id;
 			if($idk != 0) {
-				$sql = "DELETE FROM ".$wpdb->prefix."contact_templates WHERE `id` = '".$idk."'";
+				$sql = "DELETE FROM ".$wpdb->prefix."sexy_contact_templates WHERE `id` = '".$idk."'";
 				$wpdb->query($sql);
 			}
 		}
@@ -50,7 +50,7 @@ $sql =
 				sp.id,
 				sp.name,
 				sp.published
-			FROM ".$wpdb->prefix."contact_templates  sp
+			FROM ".$wpdb->prefix."sexy_contact_templates  sp
 			WHERE 1 
 		";
 if($filter_state == 1)
@@ -98,7 +98,7 @@ $rows = $wpdb->get_results($sql);
 			<th nowrap align="center" style="width: 30px;text-align: center;">Id</th>
 		</tr>
 	</thead>
-<tbody id="wpscf_sortable" table_name="<?php echo $wpdb->prefix;?>contact_templates" reorder_type="reorder">
+<tbody id="wpscf_sortable" table_name="<?php echo $wpdb->prefix;?>sexy_contact_templates" reorder_type="reorder">
 <?php        
 			$k = 0;
 			for($i=0; $i < count( $rows ); $i++) {

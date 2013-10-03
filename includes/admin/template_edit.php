@@ -3,7 +3,7 @@ global $wpdb;
 
 if($id != 0) {
 //get the rows
-$sql = "SELECT * FROM ".$wpdb->prefix."contact_templates WHERE id = '".$id."'";
+$sql = "SELECT * FROM ".$wpdb->prefix."sexy_contact_templates WHERE id = '".$id."'";
 $row = $wpdb->get_row($sql);
 }
 

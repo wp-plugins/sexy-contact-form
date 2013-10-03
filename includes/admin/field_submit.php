@@ -38,12 +38,12 @@ if($id == 0 && $count_fields < 5 && $id_type != 13 && $id_type != 14) {
 elseif($id_type != 13 && $id_type != 14) {
 	
 	$wpscf_name = isset($_POST['name']) ? $_POST['name'] : '';
-	$wpscf_id_form = isset($_POST['id_form']) ? $_POST['id_form'] : '';
-	$wpscf_id_type = isset($_POST['id_type']) ? $_POST['id_type'] : '';
-	$wpscf_required = isset($_POST['required']) ? $_POST['required'] : '';
-	$wpscf_status = isset($_POST['published']) ? $_POST['published'] : '';
+	$wpscf_id_form = isset($_POST['id_form']) ? $_POST['id_form'] : 0;
+	$wpscf_id_type = isset($_POST['id_type']) ? $_POST['id_type'] : 0;
+	$wpscf_required = isset($_POST['required']) ? $_POST['required'] : '0';
+	$wpscf_status = isset($_POST['published']) ? $_POST['published'] : 0;
 	$wpscf_width = isset($_POST['width']) ? $_POST['width'] : '';
-	$wpscf_ordering_field = isset($_POST['ordering_field']) ? $_POST['ordering_field'] : '';
+	$wpscf_ordering_field = isset($_POST['ordering_field']) ? $_POST['ordering_field'] : '0';
 	$wpscf_show_parent_label = isset($_POST['show_parent_label']) ? $_POST['show_parent_label'] : 1;
 	$wpscf_select_default_text = isset($_POST['select_default_text']) ? $_POST['select_default_text'] : '';
 	$wpscf_select_no_match_text = isset($_POST['select_no_match_text']) ? $_POST['select_no_match_text'] : '';

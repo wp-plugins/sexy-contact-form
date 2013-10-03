@@ -5,15 +5,15 @@ $task = isset($_REQUEST['task']) ? $_REQUEST['task'] : '';
 
 if($id == 0) {
 	$id_template = (int) $_POST['id_template'];
-	$sql = "SELECT `styles` FROM `".$wpdb->prefix."contact_templates` WHERE `id` = ".$id_template;
+	$sql = "SELECT `styles` FROM `".$wpdb->prefix."sexy_contact_templates` WHERE `id` = ".$id_template;
 	$styles = $wpdb->get_var($sql);
 	
-	$sql = "SELECT MAX(`ordering`) FROM `".$wpdb->prefix."contact_templates`";
+	$sql = "SELECT MAX(`ordering`) FROM `".$wpdb->prefix."sexy_contact_templates`";
 	$max_order = $wpdb->get_var($sql) + 1;
 	
 	$wpdb->query( $wpdb->prepare(
 			"
-			INSERT INTO ".$wpdb->prefix."contact_templates
+			INSERT INTO ".$wpdb->prefix."sexy_contact_templates
 			( 
 				`name`, `styles`, `published`, `ordering`
 			)
@@ -47,7 +47,7 @@ else {
 	
 	$q = $wpdb->query( $wpdb->prepare(
 			"
-			UPDATE ".$wpdb->prefix."contact_templates
+			UPDATE ".$wpdb->prefix."sexy_contact_templates
 			SET
 				`name` = %s, 
 				`styles` = %s

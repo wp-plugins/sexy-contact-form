@@ -12,7 +12,7 @@ $query =
 					'FROM '.
 						'`'.$wpdb->prefix.'sexy_forms` sp '.
 					'LEFT JOIN '.
-						'`'.$wpdb->prefix.'contact_templates` st ON st.id = sp.id_template ';
+						'`'.$wpdb->prefix.'sexy_contact_templates` st ON st.id = sp.id_template ';
 $query .=
 					'WHERE sp.published = \'1\' AND sp.id = \''.$id_form.'\' ';
 

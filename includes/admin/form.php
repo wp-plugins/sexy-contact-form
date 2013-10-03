@@ -36,7 +36,7 @@ $wpscf_shake_duration = $id == 0 ? '300' : $row->shake_duration;
 $wpscf_status = $id == 0 ? '1' : $row->published;
 
 //getbtemplate sarray
-$sql = "SELECT name, id FROM ".$wpdb->prefix."contact_templates";
+$sql = "SELECT name, id FROM ".$wpdb->prefix."sexy_contact_templates";
 $templates = $wpdb->get_results($sql);
 ?>
 <?php $args = array(

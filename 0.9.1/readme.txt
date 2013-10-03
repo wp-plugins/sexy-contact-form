@@ -6,7 +6,7 @@ Requires at least: 3.6
 Tested up to: 3.6
 Stable tag: 0.9.2
 
-Sexy Contact Form - The Sexiest way to get contacted!
+Sexy Contact Form : The Sexiest way to get contacted!
 
 == Description ==
 

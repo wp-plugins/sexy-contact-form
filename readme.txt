@@ -23,7 +23,7 @@ Sexy Contact Form - The Sexiest way to get contacted!
 * All texts are fully customizable. You can controll them throgh administrator. No need to modify text files!
 * Customizable look and feel with live preview - Create your own skin using our sexy Template Creator. [See Demo](http://2glux.com/projects/sexy-contact-form/demo-backend)
 * Flexible field types: name, email, phone, address, url, number, textarea, select, multiple select, checkbox, radio
-* Completely new checkbox, radio selection effect, implemented special for "SEXY" extensions.
+* Completely new checkbox, radio selection effect, implemented special for "SEXY" extensions!
 * Load countries list (239 countries)
 * Flexible and user friendly interface for inputting checkbox,radio/select options.
 * Set pre-checked/selected options for checkbox,radio/select types.
@@ -65,6 +65,9 @@ Use it and be happy!
 
 = V 0.9.1 - 01.10.2013 =
 * Initial release
+
+= V 0.9.2 - 04.10.2013 =
+* made changes in mysql tables structure. Corrected bug with Not NULL values.
 
 == Screenshots == 
 

@@ -5,7 +5,7 @@ Plugin URI: http://2glux.com/projects/sexy-contact-form
 Description: The sexiest way to get contacted. See <a href="http://2glux.com/projects/sexy-contact-form/demo">Sexy Contact Form Demo</a>. 
 Author: 2GLux.com
 Author URI: http://2glux.com
-Version: 0.9.1
+Version: 0.9.2
 */
 session_start();
 $plugin_version = '0.9.1';

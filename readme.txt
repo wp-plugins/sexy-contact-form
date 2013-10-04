@@ -36,6 +36,7 @@ Sexy Contact Form - The Sexiest way to get contacted!
 * High level Spam protection
 * Custom email subject
 * Shake effect if field is not valid
+* Drag&Drop reordering for fields, and forms in administration
 * 6 beautiful skins. [See demo](http://2glux.com/projects/sexy-contact-form/demo)
 * Very easy to install and configure
 
@@ -63,11 +64,11 @@ Use it and be happy!
 
 == Changelog ==
 
-= V 0.9.1 - 01.10.2013 =
-* Initial release
+= V 0.9.2 - 04/10/2013 =
+* Made changes in mysql tables structure. Corrected bug with Not NULL values.
 
-= V 0.9.2 - 04.10.2013 =
-* made changes in mysql tables structure. Corrected bug with Not NULL values.
+= V 0.9.1 - 01/10/2013 =
+* Initial release
 
 == Screenshots == 
 

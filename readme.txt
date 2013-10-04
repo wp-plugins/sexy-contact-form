@@ -66,6 +66,9 @@ Use it and be happy!
 = V 0.9.1 - 01.10.2013 =
 * Initial release
 
+= V 0.9.2 - 04.10.2013 =
+* made changes in mysql tables structure. Corrected bug with Not NULL values.
+
 == Screenshots == 
 
 1. Gray template

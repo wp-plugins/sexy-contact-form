@@ -46,6 +46,7 @@ Sexy Contact Form - The Sexiest way to get contacted!
 * Unlimited forms
 * Unlimited fields
 * Multiple forms on same page
+* PRO support
 
 ###IMPORTANT: If you think you found a bug in Sexy Contact Form or have any problem or question concerning it, do not hesitate to contact us at [info@2glux.com](mailto:info@2glux.com).
 

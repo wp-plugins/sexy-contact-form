@@ -24,17 +24,17 @@ Sexy Contact Form - The Sexiest way to get contacted!
 * Customizable look and feel with live preview - Create your own skin using our sexy Template Creator. [See Demo](http://2glux.com/projects/sexy-contact-form/demo-backend)
 * Flexible field types: name, email, phone, address, url, number, textarea, select, multiple select, checkbox, radio
 * Completely new checkbox, radio selection effect, implemented special for "SEXY" extensions!
-* Load countries list (239 countries)
+* Load countries list (239 countries).
 * Flexible and user friendly interface for inputting checkbox,radio/select options.
 * Set pre-checked/selected options for checkbox,radio/select types.
 * Multiple email recipients, BCC, reply to email, from email
 * Automatically fill in User name and email if logged in.
 * Allows page redirect to URL or menu item after sending email.
-* Send copy to sender
-* Set all fields as required or not
-* Ajax based - no page reload
-* High level Spam protection
-* Custom email subject
+* Send copy to sender.
+* Set all fields as required or not.
+* Ajax based - no page reload.
+* High level Spam protection.
+* Custom email subject.
 * Shake effect if field is not valid
 * Drag&Drop reordering for fields, and forms in administration
 * 6 beautiful skins. [See demo](http://2glux.com/projects/sexy-contact-form/demo)

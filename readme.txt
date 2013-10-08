@@ -20,9 +20,9 @@ Sexy Contact Form - The Sexiest way to get contacted!
 
 
 ### Features:
-* All texts are fully customizable. You can controll them throgh administrator. No need to modify text files!
+* All texts are fully customizable. You can controll them throgh administrator. No need to modify text files.
 * Customizable look and feel with live preview - Create your own skin using our sexy Template Creator. [See Demo](http://2glux.com/projects/sexy-contact-form/demo-backend)
-* Flexible field types: name, email, phone, address, url, number, textarea, select, multiple select, checkbox, radio
+* Flexible field types: name, email, phone, address, url, number, textarea, select, multiple select, checkbox, radio.
 * Completely new checkbox, radio selection effect, implemented special for "SEXY" extensions!
 * Load countries list (239 countries).
 * Flexible and user friendly interface for inputting checkbox,radio/select options.

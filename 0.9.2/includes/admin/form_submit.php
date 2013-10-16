@@ -16,7 +16,7 @@ if($id == 0 && $count_forms < 1) {
 			( 
 				`name`, `top_text`, `pre_text`, `thank_you_text`, `send_text`, `send_new_text`, `close_alert_text`, `form_width`, `id_template`, `redirect`, `redirect_itemid`, `redirect_url`, `redirect_delay`, `send_copy_enable`, `send_copy_text`, `email_to`, `email_bcc`, `email_subject`, `email_from`, `email_from_name`,  `email_replyto`, `email_replyto_name`, `shake_count`, `shake_distanse`, `shake_duration`,  `published`, `ordering`
 			)
-			VALUES ( %s, %s, %s, %s, %s, %s, %s, %s, %d, %s, %d, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %d, %d, %d, %d, %d )
+			VALUES ( %s, %s, %s, %s, %s, %s, %s, %s, %d, %s, %d, %s, %d, %s, %s, %s, %s, %s, %s, %s, %s, %s, %d, %d, %d, %d, %d )
 			",
 			$_POST['name'], $_POST['top_text'], $_POST['pre_text'], $_POST['thank_you_text'], $_POST['send_text'], $_POST['send_new_text'], $_POST['close_alert_text'], $_POST['form_width'], $_POST['id_template'], $_POST['redirect'], $_POST['redirect_itemid'], $_POST['redirect_url'], $_POST['redirect_delay'], $_POST['send_copy_enable'], $_POST['send_copy_text'], $_POST['email_to'], $_POST['email_bcc'], $_POST['email_subject'], $_POST['email_from'], $_POST['email_from_name'], $_POST['email_replyto'], $_POST['email_replyto_name'], $_POST['shake_count'], $_POST['shake_distanse'], $_POST['shake_duration'], $_POST['published'], $max_order
 	) );

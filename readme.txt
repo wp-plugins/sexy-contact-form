@@ -13,31 +13,32 @@ Sexy Contact Form - The Sexiest way to get contacted!
 [Sexy Contact Form](http://2glux.com/projects/sexy-contact-form) - The Sexiest way to get contacted! You will be surprised by count of all the possible features!
 
 = See = 
-[Live Demo](http://2glux.com/projects/sexy-contact-form/demo) 
-[Template Creator Demo](http://2glux.com/projects/sexy-contact-form/demo-backend) 
-[Documentation](http://2glux.com/projects/sexy-contact-form/documentation) 
-[Support Forum](http://2glux.com/forum/simple-contact-form) 
+[Live Demo](http://2glux.com/projects/sexy-contact-form/demo)  
+[Template Creator Demo](http://2glux.com/projects/sexy-contact-form/demo-backend)  
+[Documentation](http://2glux.com/projects/sexy-contact-form/documentation)  
+[Support Forum](http://2glux.com/forum/simple-contact-form)  
 
 
 ### Features:
 * All texts are fully customizable. You can controll them throgh administrator. No need to modify text files!
 * Customizable look and feel with live preview - Create your own skin using our sexy Template Creator. [See Demo](http://2glux.com/projects/sexy-contact-form/demo-backend)
-* Flexible field types: name, email, phone, address, url, number, textarea, select, multiple select, checkbox, radio
+* Flexible field types: name, email, phone, address, url, number, textarea, select, multiple select, checkbox, radio.
 * Completely new checkbox, radio selection effect, implemented special for "SEXY" extensions!
-* Load countries list (239 countries)
+* Load countries list (239 countries).
 * Flexible and user friendly interface for inputting checkbox,radio/select options.
 * Set pre-checked/selected options for checkbox,radio/select types.
 * Multiple email recipients, BCC, reply to email, from email
-* Automatically fill in User name and email if logged in
-* Allows page redirect to URL or menu item after sending email.
-* Send copy to sender
-* Set all fields as required or not
-* Ajax based - no page reload
-* High level Spam protection
-* Custom email subject
-* Shake effect if field is not valid
+* Automatically fill in User name and email if logged in.
+* Allows page redirect to URL or menu item after sending email!
+* Set all fields as required or not!
+* Send copy to sender.
+* High level Spam protection!
+* Ajax based - no page reload!
+* Custom email subject!
+* Shake effect if field is not valid!
+* Drag&Drop reordering for fields, and forms in administration!
 * 6 beautiful skins. [See demo](http://2glux.com/projects/sexy-contact-form/demo)
-* Very easy to install and configure
+* Very easy to install and configure!
 
 ### PRO Features:
 * Flexible File Upload: Multiple file selection, drag&drop support, costum file types support, customizable validation messages, upload max&min size, etc...
@@ -45,6 +46,7 @@ Sexy Contact Form - The Sexiest way to get contacted!
 * Unlimited forms
 * Unlimited fields
 * Multiple forms on same page
+* PRO support
 
 ###IMPORTANT: If you think you found a bug in Sexy Contact Form or have any problem or question concerning it, do not hesitate to contact us at [info@2glux.com](mailto:info@2glux.com).
 
@@ -63,11 +65,11 @@ Use it and be happy!
 
 == Changelog ==
 
-= V 0.9.1 - 01.10.2013 =
-* Initial release
+= V 0.9.2 - 04/10/2013 =
+* Made changes in mysql tables structure. Corrected bug with Not NULL values.
 
-= V 0.9.2 - 04.10.2013 =
-* made changes in mysql tables structure. Corrected bug with Not NULL values.
+= V 0.9.1 - 01/10/2013 =
+* Initial release
 
 == Screenshots == 
 

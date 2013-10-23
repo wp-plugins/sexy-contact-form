@@ -1,7 +1,7 @@
 === Sexy Contact Form ===
 Contributors: 2glux
 Author: 2GLux
-Tags: contact, form, contact form, contact forms, Attachment, contact form plugin, contact form builder, form builder, shortcode form, contact us, easy contact, easy contact form, easy contact form solution, form solution, contact me, contacts, contacts form plugin, copy, feedback, feedback form, request, send, send copy, text, responsive, Responsive Contact Form, email, ajax, captcha, multilingual, post, Posts, widget, shortcode, sidebar, html5, css, css3, shortcode, network, social, society, text, javascript, jquery, plugin, plugins, page, pages, ajax, content, simple, wordpress
+Tags: contact, form, contact form, contact forms, Attachment, contact form plugin, contact form builder, form builder, shortcode form, contact us, easy contact, easy contact form, easy contact form solution, form solution, contact me, contacts, contacts form plugin, copy, feedback, feedback form, request, send, send copy, text, responsive, Responsive Contact Form, email, ajax, captcha, multilingual, post, Posts, widget, shortcode, sidebar, html5, html, css, css3, shortcode, network, social, society, text, javascript, jquery, plugin, plugins, page, pages, ajax, content, simple, wordpress
 Requires at least: 3.6
 Tested up to: 3.6
 Stable tag: 0.9.2
@@ -32,13 +32,13 @@ Sexy Contact Form - The Sexiest way to get contacted!
 * Allows page redirect to URL or menu item after sending email!
 * Set all fields as required or not!
 * Send copy to sender.
-* High level Spam protection.
-* Ajax based - no page reload.
-* Custom email subject.
-* Shake effect if field is not valid
-* Drag&Drop reordering for fields, and forms in administration
+* High level Spam protection!
+* Ajax based - no page reload!
+* Custom email subject!
+* Shake effect if field is not valid!
+* Drag&Drop reordering for fields, and forms in administration!
 * 6 beautiful skins. [See demo](http://2glux.com/projects/sexy-contact-form/demo)
-* Very easy to install and configure
+* Very easy to install and configure!
 
 ### PRO Features:
 * Flexible File Upload: Multiple file selection, drag&drop support, costum file types support, customizable validation messages, upload max&min size, etc...

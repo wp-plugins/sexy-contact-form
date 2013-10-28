@@ -1,7 +1,7 @@
 === Sexy Contact Form ===
 Contributors: 2glux
 Author: 2GLux
-Tags: contact, form, contact form, contact forms, Attachment, contact form plugin, shortcode, contact form builder, form builder, shortcode form, contact us, easy contact form, easy contact form solution, form solution, contact me, contacts, contacts form plugin, copy, feedback, feedback form, request, send, send copy, text, responsive, Responsive Contact Form, email, ajax, captcha, multilingual, post, Posts, widget, shortcode, sidebar, html5, css, css3, shortcode, network, social, society, text, javascript, jquery, plugin, plugins, page, pages, ajax, content, simple, wordpress,  iPad, iphone, mobile, secure, seo, tablet
+Tags: contact, form, contact form, contact forms, Attachment, contact form plugin, shortcode, contact form builder, form builder, shortcode form, contact us, easy, form solution, contact me, contacts, contacts form plugin, copy, feedback, feedback form, request, send, send copy, text, responsive, Responsive Contact Form, email, ajax, captcha, multilingual, post, Posts, widget, shortcode, sidebar, html5, html, css, css3, shortcode, network, social, society, text, javascript, jquery, plugin, plugins, page, pages, ajax, content, simple, wordpress,  iPad, iphone, mobile, secure, seo, tablet
 Requires at least: 3.6
 Tested up to: 3.6
 Stable tag: 0.9.2
@@ -27,12 +27,12 @@ Sexy Contact Form - The Sexiest way to get contacted!
 * Load countries list (239 countries).
 * Flexible and user friendly interface for inputting checkbox,radio/select options.
 * Set pre-checked/selected options for checkbox,radio/select types.
-* Automatically fill in User name and email if logged in.
+* Ajax based - no page reload!
 * Multiple email recipients, BCC, reply to email, from email
 * Allows page redirect to URL or menu item after sending email!
-* Send copy to sender.
 * Set all fields as required or not!
-* Ajax based - no page reload!
+* Send copy to sender.
+* Automatically fill in User name and email if logged in.
 * High level Spam protection!
 * Custom email subject!
 * Shake effect if field is not valid!

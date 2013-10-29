@@ -302,6 +302,11 @@ $(document).ready(function() {
 	$(".sexy_url").blur(function() {
 		validate_url($(this),false);
 	});
+	$(".sexy_url_reserve").blur(function() {
+		if($(this).hasClass('active')) {
+			$(this).addClass('passive');
+		}
+	});
 	
 	$('.sexycontactform_input_element input,.sexycontactform_input_element textarea').focus(function() {
 		$(this).parents('.sexycontactform_input_element').addClass('focused');

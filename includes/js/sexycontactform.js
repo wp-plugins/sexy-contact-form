@@ -305,6 +305,9 @@ $(document).ready(function() {
 	$(".sexy_url_reserve").blur(function() {
 		if($(this).hasClass('active')) {
 			$(this).addClass('passive');
+			if($(this).attr("id") == 'just_added_element') {
+				return false;
+			}
 		}
 	});
 	

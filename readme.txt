@@ -27,16 +27,16 @@ Sexy Contact Form - The Sexiest way to get contacted!
 * Load countries list (239 countries).
 * Flexible and user friendly interface for inputting checkbox,radio/select options.
 * Set pre-checked/selected options for checkbox,radio/select types.
-* Ajax based - no page reload!
 * Multiple email recipients, BCC, reply to email, from email
+* Ajax based. no page reload!
 * Allows page redirect to URL or menu item after sending email!
 * Set all fields as required or not!
-* Send copy to sender.
 * Automatically fill in User name and email if logged in.
+* Send copy to sender!
 * High level Spam protection!
+* Drag&Drop reordering for fields, and forms in administration!
 * Custom email subject!
 * Shake effect if field is not valid!
-* Drag&Drop reordering for fields, and forms in administration!
 * 6 beautiful skins. [See demo](http://2glux.com/projects/sexy-contact-form/demo)
 * Very easy to install and configure!
 

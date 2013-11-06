@@ -1,7 +1,7 @@
 === Sexy Contact Form ===
 Contributors: 2glux
 Author: 2GLux
-Tags: contact, form, contact form, contact forms, Attachment, contact form plugin, shortcode, contact form builder, form builder, shortcode form, contact us, easy, form solution, contact me, contacts, contacts form plugin, copy, feedback, feedback form, request, send, send copy, text, responsive, Responsive Contact Form, email, ajax, captcha, multilingual, post, Posts, widget, shortcode, sidebar, html, css, css3, shortcode, network, social, society, text, javascript, jquery, plugin, plugins, page, pages, ajax, content, simple, wordpress,  iPad, iphone, mobile, secure, seo, tablet
+Tags: contact, form, contact form, contact forms, Attachment, contact form plugin, shortcode, contact form builder, form builder, shortcode form, contact us, easy, form solution, contact me, contacts, contacts form plugin, copy, feedback, feedback form, request, send, send copy, text, responsive, Responsive Contact Form, email, ajax, captcha, multilingual, post, Posts, widget, shortcode, sidebar, html, html5, css, css3, shortcode, network, social, society, text, javascript, jquery, plugin, plugins, page, pages, ajax, content, simple, wordpress,  iPad, iphone, mobile, secure, seo, tablet
 Requires at least: 3.6
 Tested up to: 3.6
 Stable tag: 0.9.2
@@ -29,8 +29,8 @@ Sexy Contact Form - The Sexiest way to get contacted!
 * Set pre-checked/selected options for checkbox,radio/select types.
 * Multiple email recipients, BCC, reply to email, from email!
 * Ajax based. no page reload!
-* Allows page redirect to URL or menu item after sending email!
 * Set all fields as required or not!
+* Allows page redirect to URL or menu item after sending email!
 * Automatically fill in User name and email if logged in.
 * Send copy to sender!
 * High level Spam protection!
@@ -56,7 +56,7 @@ Please `use` [Support Forum](http://2glux.com/forum/simple-contact-form) for you
 
 == Installation ==
 
-1. Upload the entire sexy-contact-form folder to the /wp-content/plugins/ directory, or upload the .zip package through Plugins->Add New->Upload.
+1. Upload the entire sexy-contact-form folder to the /wp-content/plugins/ directory, or upload the .zip package through Plugins -> Add New -> Upload.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
 You will find 'Sexy Contact Form' menu in your WordPress admin panel.

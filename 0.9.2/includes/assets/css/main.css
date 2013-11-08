@@ -889,4 +889,7 @@ img.sexy_captcha {
 .sexycontactform_pre_hidden {
 	display: none !important;
 	overflow: hidden;
+	white-space: nowrap;
+	visibility: hidden;
+	line-height: 0;
 }

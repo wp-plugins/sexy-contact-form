@@ -918,4 +918,9 @@ img.sexy_captcha {
 	border-radius: 4px !important;
 	background-color: #FF8F00 !important;
 	text-shadow: 0 -1px 1px rgba(0,0,0,0.77) !important;
+
+	-webkit-transition:  background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	-moz-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	-o-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
 }

@@ -65,6 +65,9 @@ Use it and be happy!
 
 == Changelog ==
 
+= V 0.9.3 - 15/11/2013 =
+* Shortcode corrections
+
 = V 0.9.2 - 04/10/2013 =
 * Made changes in mysql tables structure. Corrected bug with Not NULL values.
 

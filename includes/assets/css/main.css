@@ -901,4 +901,10 @@ img.sexy_captcha {
 	-moz-box-shadow: none !important;
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
+
+	min-width: 140px !important;
+	max-width: 100% !important;
+	height: 27px;
+	position: relative !important;
+	display: block !important;
 }

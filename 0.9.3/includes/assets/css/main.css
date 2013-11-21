@@ -911,4 +911,12 @@ img.sexy_captcha {
 .sexycontactform_wrapper_element .heador2 {
 	color: rgb(255, 255, 255);
 	text-shadow: 0px -1px 0px #333, 0px 2px 3px rgb(85, 75, 75) !important;
+
+	position: relative !important;
+	visibility: visible !important;
+	overflow: visible !important;
+	height: auto !important;
+	width: auto !important;
+	text-indent: 0px !important;
+	background: none !important;
 }

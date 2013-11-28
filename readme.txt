@@ -46,6 +46,7 @@ Sexy Contact Form - The Sexiest way to get contacted!
 * Unlimited forms
 * Unlimited fields
 * Multiple forms on same page
+* No Powered By text
 * PRO support
 
 ###IMPORTANT: If you think you found a bug in Sexy Contact Form or have any problem or question concerning it, do not hesitate to contact us at [info@2glux.com](mailto:info@2glux.com).
@@ -64,6 +65,10 @@ You will find 'Sexy Contact Form' menu in your WordPress admin panel.
 Use it and be happy!
 
 == Changelog ==
+
+= V 0.9.4 - 29/11/2013 =
+* Added option Check Token, to enable/disable integrated anti-spam prottection, to avoid Invalid Token errors.
+* Added Powered By text.
 
 = V 0.9.3 - 15/11/2013 =
 * Shortcode corrections

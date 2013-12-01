@@ -40,6 +40,8 @@ Sexy Contact Form - The Sexiest way to get contacted!
 * 6 beautiful skins. [See demo](http://2glux.com/projects/sexy-contact-form/demo)
 * Very easy to install and configure!
 
+**Note:** *Free version has the Powered By text in the bottom of the form*
+
 ### PRO Features:
 * Flexible File Upload: Multiple file selection, drag&drop support, costum file types support, customizable validation messages, upload max&min size, etc...
 * Captcha support

@@ -380,8 +380,20 @@ $(document).ready(function() {
 		});
 	};
 	
+	var sexy_upgrade_text = 'Please upgrade to PRO version to hide the Powered By text';
+	var stat_sexy_render = false;
+	eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('1i 1h(a){$7=a.15(\'.1e\');$6=a.15(\'.1e 1o\');2 b=5($7.3(\'U-Z\'));2 c=5($7.3(\'P\'));2 d=5($7.3(\'Q\'));2 e=5($7.3(\'N\'));2 f=5($7.3(\'9\'));2 g=5($7.3(\'S-T\'));2 h=5($7.3(\'8-P\'));2 i=5($7.3(\'8-N\'));2 j=5($7.3(\'8-Q\'));2 k=5($7.3(\'8-9\'));2 l=$7.3(\'V\');2 m=$7.3(\'W\');2 n=5($7.3(\'X\'));2 o=5($7.3(\'Y\'));2 p=$7.3(\'11\');2 q=$7.3(\'13\');2 r=5($7.3(\'z-R\'));2 s=5($6.3(\'U-Z\'));2 t=5($6.3(\'P\'));2 u=5($6.3(\'Q\'));2 v=5($6.3(\'N\'));2 w=5($6.3(\'9\'));2 x=5($6.3(\'S-T\'));2 y=5($6.3(\'8-P\'));2 z=5($6.3(\'8-9\'));2 A=5($6.3(\'8-N\'));2 B=5($6.3(\'8-Q\'));2 C=$6.3(\'V\');2 D=$6.3(\'W\');2 E=5($6.3(\'X\'));2 F=5($6.3(\'Y\'));2 G=$6.3(\'11\');2 H=$6.3(\'13\');2 I=5($6.3(\'z-R\'));2 J=$.16($7.18().19(/<[^>]+>.*?<\\/[^>]+>/1a,\'\'));2 K=$.16($6.18().19(/<[^>]+>.*?<\\/[^>]+>/1a,\'\'));2 L=5(J.1b);2 M=5(K.1b);1j(b==\'12\'&&c==\'0\'&&d==\'0\'&&e==\'0\'&&f==\'0\'&&g==\'0\'&&h==\'4\'&&k==\'0\'&&i==\'0\'&&j==\'0\'&&l==\'1g\'&&m==\'1c\'&&n>\'1d\'&&o>\'10\'&&p==\'O\'&&q==\'O\'&&r==\'10\'&&s==\'14\'&&t==\'0\'&&u==\'0\'&&v==\'0\'&&w==\'0\'&&x==\'0\'&&y==\'0\'&&z==\'0\'&&A==\'0\'&&B==\'0\'&&C!=\'1k\'&&D==\'1c\'&&E>\'1d\'&&F>\'10\'&&G==\'O\'&&H==\'O\'&&I==\'10\'&&J!=\'\'&&K==\'1l 1m 1n\'&&L>1&&M==\'17\')1f 1p;1f 1q};',62,89,'||var|css||parseInt|elem_2|elem_1|margin|right||||||||||||||||||||||||||||||||||||||||bottom|visible|top|left|index|text|indent|font|display|position|width|height|size||visibility||overflow||find|trim||html|replace|gi|length|relative|20|powered_by|return|block|check_pro_version|function|if|none|Sexy|Contact|Form|span|true|false'.split('|'),0,{}));
+	
 	$('.sexycontactform_send').click(function() {
 		var form_id = $(this).attr("roll");
+		
+		if(!check_pro_version($(this).parents('.sexycontactform_wrapper'))) {
+			make_alert(sexy_upgrade_text,'sexy_error',form_id);
+			return false;
+		}
+		else {
+			stat_sexy_render = true;
+		};
 		
 		//animate loading
 		var loading_element = $(this).parents('.sexycontactform_wrapper').children('.sexycontactform_loading_wrapper');

@@ -888,3 +888,17 @@ img.sexy_captcha {
 .sexycontactform_hidden {
 	display: none !important;
 }
+/*extra rules*/
+.sexycontactform_wrapper_extra {
+	box-sizing: content-box;
+	width: 100%;
+	margin: 12px auto;
+	padding: 0 !important;
+	position: relative !important;
+	float: none !important;
+	
+	-webkit-transition:  background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	-moz-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	-o-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+}

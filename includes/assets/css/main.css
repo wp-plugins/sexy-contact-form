@@ -897,8 +897,8 @@ img.sexy_captcha {
 	position: relative !important;
 	float: none !important;
 	
-	-webkit-transition:  background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
-	-moz-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
-	-o-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
-	transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	-webkit-transition:  background linear 0.95s, background-color linear 0.95s, box-shadow linear 0.95s, border linear 0.95s;
+	-moz-transition: background linear 0.95s, background-color linear 0.95s, box-shadow linear 0.95s, border linear 0.95s;
+	-o-transition: background linear 0.95s, background-color linear 0.95s, box-shadow linear 0.95s, border linear 0.95s;
+	transition: background linear 0.95s, background-color linear 0.95s, box-shadow linear 0.95s, border linear 0.95s;
 }

@@ -890,20 +890,12 @@ img.sexy_captcha {
 }
 /*extra rules*/
 .sexycontactform_wrapper_extra {
-	padding: 0px !important;
-	font-size: 14px !important;
-	bottom: 0 !important;
-	left: 0 !important;
-	right: 0 !important;
-	top: 0 !important;
-	position: relative !important;
 	visibility: visible !important;
 	overflow: visible !important;
 	height: auto !important;
 	width: auto !important;
 	text-indent: 0px !important;
 	background: none !important;
-	z-index: 999 !important;
 	text-shadow: 0px -1px 0px #333, 0px 3px 3px rgb(85, 75, 75) !important;
 		
 	-webkit-transition:  background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;

@@ -890,16 +890,6 @@ img.sexy_captcha {
 }
 /*extra rules*/
 .sexycontactform_wrapper_extra {
-	visibility: visible !important;
-	overflow: visible !important;
-	height: auto !important;
-	width: auto !important;
-	text-indent: 0px !important;
-	background: none !important;
-	text-shadow: 0px -1px 0px #333, 0px 3px 3px rgb(85, 75, 75) !important;
-		
-	-webkit-transition:  background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
-	-moz-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
-	-o-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
-	transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+color: rgb(103, 164, 255) !important;
+	text-shadow: 0px -1px 0px rgb(0, 0, 0), 0px 2px 3px rgb(15, 15, 15) !important;
 }

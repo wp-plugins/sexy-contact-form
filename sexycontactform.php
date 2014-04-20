@@ -7,7 +7,10 @@ Author: 2GLux.com
 Author URI: http://2glux.com
 Version: 0.9.3
 */
-session_start();
+//strat session
+if (session_id() == '') {
+	session_start();
+}
 $plugin_version = '0.9.3';
 $wpscf_db_version = '0.9.3';
 $wpscf_options = get_option('wpscf_settings');

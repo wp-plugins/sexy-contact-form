@@ -101,7 +101,7 @@ if($get_token == 0) {
 		$fromname = get_option( 'blogname', 'Wordpress site' );
 		$mailfrom = get_option( 'admin_email', '' );
 		if ($mailfrom == '') {
-			$info[] = 'Mail from not set in Joomla Global Configuration';
+			$info[] = 'Mail from not set in Global Configuration';
 		}
 		
 		//get email to

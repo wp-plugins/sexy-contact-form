@@ -1,13 +1,17 @@
 <?php
 /*
 Plugin Name: Sexy Contact Form
-Plugin URI: http://2glux.com/projects/sexy-contact-form
-Description: The sexiest way to get contacted. See <a href="http://2glux.com/projects/sexy-contact-form/demo">Sexy Contact Form Demo</a>. 
-Author: 2GLux.com
-Author URI: http://2glux.com
+Plugin URI: http://creative-solutions.net/wordpress/creative-contact-form/
+Description: The sexiest way to get contacted. See <a href="http://creative-solutions.net/wordpress/creative-contact-form/demo">Sexy Contact Form Demo</a>. 
+Author: Creative Solutions
+Author URI: http://creative-solutions.net/
 Version: 0.9.4
 */
-session_start();
+
+//strat session
+if (session_id() == '') {
+	session_start();
+}
 global $wpscf_db_version;
 $plugin_version = '0.9.4';
 $wpscf_db_version = '0.9.4';

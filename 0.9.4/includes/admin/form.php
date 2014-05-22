@@ -67,7 +67,7 @@ if($id == 0 && $count_forms >= 1) {
 	<div style="color: rgb(235, 9, 9);font-size: 16px;font-weight: bold;">Please Upgrade to PRO Version to have more than 1 Sexy Forms!</div>
 	<div id="cpanel" style="float: left;">
 		<div class="icon" style="float: right;">
-			<a href="http://2glux.com/projects/sexy-contact-form" target="_blank" title="Buy PRO version">
+			<a href="http://creative-solutions.net/wordpress/creative-contact-form" target="_blank" title="Buy PRO version">
 				<table style="width: 100%;height: 100%;text-decoration: none;">
 					<tr>
 						<td align="center" valign="middle">

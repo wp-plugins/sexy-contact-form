@@ -3,25 +3,25 @@ Contributors: 2glux
 Author: 2GLux
 Tags: contact, form, contact form, contact forms, Attachment, contact form plugin, shortcode, contact form builder, form builder, shortcode form, contact us, easy, form solution, contact me, contacts, contacts form plugin, copy, feedback, feedback form, request, send, send copy, text, responsive, Responsive Contact Form, email, ajax, captcha, multilingual, post, Posts, widget, shortcode, sidebar, html5, html, css, css3, shortcode, network, social, society, text, javascript, jquery, plugin, plugins, page, pages, ajax, content, simple, wordpress,  iPad, iphone, mobile, secure, seo, tablet
 Requires at least: 3.6
-Tested up to: 3.7
+Tested up to: 3.9.1
 Stable tag: 0.9.4
 
-Sexy Contact Form - The Sexiest way to get contacted!
+Creative Contact Form is a responsive jQuery contact form with amazing visual effects. You will be surprised by count of all the possible features!
 
 == Description ==
 
-[Sexy Contact Form](http://2glux.com/projects/sexy-contact-form) - The Sexiest way to get contacted! You will be surprised by count of all the possible features!
+[Creative Contact Form](http://creative-solutions.net/wordpress/creative-contact-form/) - You will be surprised by count of all the possible features!
 
 = See = 
-[Live Demo](http://2glux.com/projects/sexy-contact-form/demo)  
-[Template Creator Demo](http://2glux.com/projects/sexy-contact-form/demo-backend)  
-[Documentation](http://2glux.com/projects/sexy-contact-form/documentation)  
-[Support Forum](http://2glux.com/forum/simple-contact-form)  
+[Live Demo](http://creative-solutions.net/wordpress/creative-contact-form/demo)  
+[Template Creator Demo](http://creative-solutions.net/wordpress/creative-contact-form/template-creator-demo)  
+[Documentation](http://creative-solutions.net/wordpress/creative-contact-form/documentation)  
+[Support Forum](http://creative-solutions.net/forum/creative-contact-form-wordpress/)  
 
 
 ### Features:
 * All texts are fully customizable. You can controll them throgh administrator. No need to modify text files!
-* Customizable look and feel with live preview - Create your own skin using our sexy Template Creator. [See Demo](http://2glux.com/projects/sexy-contact-form/demo-backend)
+* Customizable look and feel with live preview - Create your own skin using our sexy Template Creator. [See Demo](http://creative-solutions.net/wordpress/creative-contact-form/template-creator-demo)
 * Flexible field types: name, email, phone, address, url, number, textarea, select, multiple select, checkbox, radio.
 * Completely new checkbox, radio selection effect, implemented special for "SEXY" extensions!
 * Load countries list (239 countries).
@@ -37,7 +37,7 @@ Sexy Contact Form - The Sexiest way to get contacted!
 * Drag&Drop reordering for fields, and forms in administration!
 * Custom email subject!
 * Shake effect if field is not valid!
-* 6 beautiful skins. [See demo](http://2glux.com/projects/sexy-contact-form/demo)
+* 6 beautiful skins. [See demo](http://creative-solutions.net/wordpress/creative-contact-form/demo)
 * Very easy to install and configure!
 
 **Note:** *Free version has the Powered By text in the bottom of the form*
@@ -51,11 +51,11 @@ Sexy Contact Form - The Sexiest way to get contacted!
 * No Powered By text
 * PRO support
 
-###IMPORTANT: If you think you found a bug in Sexy Contact Form or have any problem or question concerning it, do not hesitate to contact us at [info@2glux.com](mailto:info@2glux.com).
+###IMPORTANT: If you think you found a bug in Sexy Contact Form or have any problem or question concerning it, do not hesitate to contact us at [info@creative-solutions.net](mailto:info@creative-solutions.net).
 
 
 ### Support:
-Please `use` [Support Forum](http://2glux.com/forum/simple-contact-form) for your questions and support requests!
+Please `use` [Support Forum](http://creative-solutions.net/forum/creative-contact-form-wordpress/) for your questions and support requests!
 
 == Installation ==
 

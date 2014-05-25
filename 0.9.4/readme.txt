@@ -2,7 +2,7 @@
 Contributors: creative-solutions
 Author: creative-solutions
 Tags: contact, form, contact form, contact forms, Attachment, contact form plugin, shortcode, contact form builder, form builder, shortcode form, contact us, easy, form solution, contact me, contacts, contacts form plugin, copy, feedback, feedback form, request, send, send copy, text, responsive, Responsive Contact Form, email, ajax, captcha, multilingual, post, Posts, widget, shortcode, sidebar, html5, html, css, css3, shortcode, network, social, society, text, javascript, jquery, plugin, plugins, page, pages, ajax, content, simple, wordpress,  iPad, iphone, mobile, secure, seo, tablet
-Requires at least: 3.6
+Requires at least: 3.6.1
 Tested up to: 3.9.1
 Stable tag: 0.9.4
 

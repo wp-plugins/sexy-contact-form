@@ -12,11 +12,12 @@ Sexy Contact Form is a responsive jQuery contact form with amazing visual effect
 
 [Sexy Contact Form](http://creative-solutions.net/wordpress/creative-contact-form/) - You will be surprised by count of all the possible features!
 
-= See = 
-[Live Demo](http://creative-solutions.net/wordpress/creative-contact-form/demo)  
-[Template Creator Demo](http://creative-solutions.net/wordpress/creative-contact-form/template-creator-demo)  
-[Documentation](http://creative-solutions.net/wordpress/creative-contact-form/documentation)  
-[Support Forum](http://creative-solutions.net/forum/creative-contact-form-wordpress/)  
+> #### **See**
+
+> * [Live Demo](http://creative-solutions.net/wordpress/creative-contact-form/demo)  
+> * [Template Creator Demo](http://creative-solutions.net/wordpress/creative-contact-form/template-creator-demo)  
+> * [Documentation](http://creative-solutions.net/wordpress/creative-contact-form/documentation)  
+> * [Support Forum](http://creative-solutions.net/forum/creative-contact-form-wordpress/)  
 
 
 ### Features:

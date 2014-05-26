@@ -11,6 +11,7 @@ Version: 0.9.4
 //strat session
 if (session_id() == '') {
 	session_start();
+	//check
 }
 global $wpscf_db_version;
 $plugin_version = '0.9.4';

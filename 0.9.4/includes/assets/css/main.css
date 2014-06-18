@@ -908,8 +908,8 @@ img.sexy_captcha {
 	position: relative !important;
 	visibility: visible !important;
 	overflow: visible !important;
-	height: auto !important;
-	width: auto !important;
+	height: auto;
+	width: auto;
 	text-indent: 0px !important;
 	background: transparent !important;
 }

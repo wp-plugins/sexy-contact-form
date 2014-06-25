@@ -6,11 +6,11 @@ Requires at least: 3.6.1
 Tested up to: 3.9.1
 Stable tag: 0.9.4
 
-Sexy Contact Form is a responsive jQuery contact form with amazing visual effects. You will be surprised by count of all the possible features!
+Creative Contact Form is a responsive jQuery contact form with amazing visual effects. You will be surprised by count of all the possible features! Over 19,330+ sites are already using Creative Contact Form.
 
 == Description ==
 
-[Sexy Contact Form](http://creative-solutions.net/wordpress/creative-contact-form/) - You will be surprised by count of all the possible features!
+[Creative Contact Form](http://creative-solutions.net/wordpress/creative-contact-form/) - You will be surprised by count of all the possible features!
 
 > #### **See**
 

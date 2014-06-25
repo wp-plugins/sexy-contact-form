@@ -6,7 +6,7 @@ Requires at least: 3.6.1
 Tested up to: 3.9.1
 Stable tag: 0.9.4
 
-Creative Contact Form is a responsive jQuery contact form maker with amazing visual effects. Over 19,330+ sites are already using Creative Contact Form.
+Creative Contact Form is a responsive contact form maker with amazing visual effects. Over 19,330+ sites are already using Creative Contact Form.
 
 == Description ==
 

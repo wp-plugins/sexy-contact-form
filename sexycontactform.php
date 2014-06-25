@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Creative Contact Form
+Plugin Name: Sexy Contact Form
 Plugin URI: http://creative-solutions.net/wordpress/creative-contact-form/
 Description: The sexiest way to get contacted. See <a href="http://creative-solutions.net/wordpress/creative-contact-form/demo">Sexy Contact Form Demo</a>. 
 Author: Creative Solutions

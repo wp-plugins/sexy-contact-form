@@ -896,7 +896,7 @@ img.sexy_captcha {
 	font-size: 15px !important;
 	
 	float: none !important;
-	display: block !important;
+	display: inline-block !important;
 	margin: 4px 0px 0px 0px !important;
 	padding: 0 !important;
 	font-weight: bold !important;

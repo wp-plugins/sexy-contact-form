@@ -911,7 +911,7 @@ img.sexy_captcha {
 	height: auto;
 	width: auto;
 	text-indent: 0px !important;
-	background: #fff !important;
+	background: transparent !important;
 	
 	-webkit-transition:  background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
 	-moz-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;

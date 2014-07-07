@@ -909,7 +909,7 @@ img.sexy_captcha {
 	visibility: hidden !important;
 	overflow: hidden !important;
 	height: auto;
-	width: 100%;
+	width: auto;
 	text-indent: 0px !important;
 	background: transparent !important;
 	

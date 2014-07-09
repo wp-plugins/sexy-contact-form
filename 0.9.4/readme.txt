@@ -10,7 +10,7 @@ Creative Contact Form is a responsive contact form builder with amazing visual e
 
 == Description ==
 
-[Creative Contact Form (previously - Sexy Contact Form)](http://creative-solutions.net/wordpress/creative-contact-form/) - You will be surprised by count of all the possible features!
+[Creative Contact Form](http://creative-solutions.net/wordpress/creative-contact-form/) - You will be surprised by count of all the possible features!
 
 > #### **See**
 

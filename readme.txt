@@ -14,12 +14,11 @@ Creative Contact Form is a responsive contact form builder with amazing visual e
 
 > #### **See**
 
-> * [Project Homepage](http://creative-solutions.net/wordpress/creative-contact-form) 
+> * [Homepage](http://creative-solutions.net/wordpress/creative-contact-form) 
 > * [Live Demo](http://creative-solutions.net/wordpress/creative-contact-form/demo)  
 > * [Template Creator Demo](http://creative-solutions.net/wordpress/creative-contact-form/template-creator-demo)   
 > * [Support Forum](http://creative-solutions.net/forum/creative-contact-form-wordpress/)  
-
-*Temporary* **BIG SALES** *on PRO version!* *[Check Now](http://creative-solutions.net/wordpress/creative-contact-form)*
+> * *Temporary* **BIG SALES** *on PRO version!* *[Check Now](http://creative-solutions.net/wordpress/creative-contact-form)*
 
 ### Features:
 * All texts are fully customizable. You can controll them throgh wp-admin. No need to modify text files!

@@ -44,14 +44,14 @@ Creative Contact Form is a responsive contact form builder with amazing visual e
 
 **Note:** *Free version has the Powered By text in the bottom of the form*
 
-### PRO Features:
-* Flexible File Upload: Multiple file selection, drag&drop support, costum file types support, customizable validation messages, upload max&min size, etc...
-* Captcha support
-* Unlimited forms
-* Unlimited fields
-* Multiple forms on same page
-* No Powered By text
-* PRO support
+> #### **PRO features:**
+> * Flexible File Upload: Multiple file selection, drag&drop support, costum file types support, customizable validation messages, upload max&min size, etc...
+> * Captcha support!
+> * Unlimited forms!
+> * Unlimited fields *(5 in free version)*!
+> * Multiple forms on same page!
+> * No Powered By text!
+> * PRO support!
 
 ###IMPORTANT: If you think you found a bug in Sexy Contact Form or have any problem or question concerning it, do not hesitate to contact us at [info@creative-solutions.net](mailto:info@creative-solutions.net).
 

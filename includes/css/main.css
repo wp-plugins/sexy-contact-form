@@ -193,8 +193,8 @@
 .sexy_textarea_extra {
 	display: block !important;
 
-	width: 100% !important;
-	border: none !important;
+	width: auto !important;
+	border: 1px dotted red !important;
 	background: none !important;
 	margin: 0 !important;
 	padding: 0 !important;
@@ -203,11 +203,11 @@
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
 	
-		position: relative;
-	padding: 3px 8px 0px 8px;
+	position: relative;
+	padding: 5px 5px 0px 5px;
 
 	
-		-webkit-transition:  background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
+	-webkit-transition:  background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
 	-moz-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
 	-o-transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;
 	transition: background linear 0.2s, background-color linear 0.2s, box-shadow linear 0.2s, border linear 0.2s;

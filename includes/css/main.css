@@ -203,11 +203,12 @@
 	-webkit-box-shadow: none !important;
 	box-shadow: none !important;
 	
-	position: relative;
+	position: absolute;
 	padding: 5px 5px 0px 5px;
 	
-		box-sizing:border-box !important;
+	box-sizing:border-box !important;
 	-moz-box-sizing:border-box !important; /* Firefox */
 	-webkit-box-sizing:border-box !important;
+	z-index: 999;
 \
 }

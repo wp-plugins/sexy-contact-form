@@ -205,10 +205,9 @@
 	
 	position: relative;
 	padding: 5px 5px 0px 5px;
-
 	
-	-webkit-transition:  background linear 0.4s, background-color linear 0.4s, box-shadow linear 0.4s, border linear 0.4s;
-	-moz-transition: background linear 0.4s, background-color linear 0.4s, box-shadow linear 0.4s, border linear 0.4s;
-	-o-transition: background linear 0.4s, background-color linear 0.4s, box-shadow linear 0.4s, border linear 0.4s;
-	transition: background linear 0.4s, background-color linear 0.4s, box-shadow linear 0.4s, border linear 0.4s;
+		box-sizing:border-box !important;
+	-moz-box-sizing:border-box !important; /* Firefox */
+	-webkit-box-sizing:border-box !important;
+\
 }

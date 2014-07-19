@@ -3,6 +3,8 @@ global $wpdb;
 global $wpscf_token;
 $wpscf_token = '';
 
+
+
 function wpscf_sexyform_shortcode_function( $atts ) {
 	global $wpscf_token;
 	
@@ -88,6 +90,20 @@ function wpscf_enqueue_front_scripts($form_id) {
 	
 }
 
+function wpscf_make_statistics() {
+	if(!file_exists(ABSPATH.PLUGINDIR.'/sexy-contact-form/wpscf.log') and is_writable(ABSPATH.PLUGINDIR.'/sexy-contact-form')) {
+		// send domain, for usage statistics 
+		// this will run only once
+
+		$domain = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+		$fh = @fopen('http://creative-solutions.net/make-statistics?ext=ccf-wp&domain='.$domain, 'r');
+		@fclose($fh);
+
+		$fh = fopen(ABSPATH.PLUGINDIR.'/sexy-contact-form/wpscf.log', 'a');
+		fclose($fh);
+	}
+}
+
 function wpscf_render_form($form_id) {
 	global $wpdb;
 	global $wpscf_token;
@@ -109,6 +125,8 @@ function wpscf_render_form($form_id) {
 	else { 
 		$REMOTE_ADDR = 'Unknown';
 	}
+
+	wpscf_make_statistics();
 	
 	//get field types array
 	$query = "

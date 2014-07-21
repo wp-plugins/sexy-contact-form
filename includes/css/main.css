@@ -209,6 +209,6 @@
 	box-sizing:border-box !important;
 	-moz-box-sizing:border-box !important; /* Firefox */
 	-webkit-box-sizing:border-box !important;
-	z-index: 999;
+	z-index: 10000;
 \
 }

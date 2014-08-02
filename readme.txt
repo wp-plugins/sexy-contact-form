@@ -4,7 +4,7 @@ Author: 2GLux
 Tags: contact, form, contact form, contact forms, Attachment, contact form plugin, contact form builder, form builder, shortcode form, contact us, easy contact, easy contact form, easy contact form solution, form solution, contact me, contacts, contacts form plugin, copy, feedback, feedback form, request, send, send copy, text, responsive, Responsive Contact Form, email, ajax, captcha, multilingual, post, Posts, widget, shortcode, sidebar, html5, html, css, css3, shortcode, network, social, society, text, javascript, jquery, plugin, plugins, page, pages, ajax, content, simple, wordpress
 Requires at least: 3.6
 Tested up to: 3.6
-Stable tag: 0.9.4
+Stable tag: 0.9.6
 
 Sexy Contact Form - The Sexiest way to get contacted!
 

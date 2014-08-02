@@ -70,6 +70,10 @@ Use it and be happy!
 
 == Changelog ==
 
+= V 0.9.6 - 11/08/2014 =
+* Added white template
+* Fixed Javascript Bugs.
+
 = V 0.9.4 - 29/11/2013 =
 * Added option Check Token, to enable/disable integrated anti-spam prottection, to avoid Invalid Token errors.
 * Added Powered By text.

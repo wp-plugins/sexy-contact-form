@@ -5,7 +5,7 @@ Plugin URI: http://creative-solutions.net/wordpress/creative-contact-form/
 Description: The sexiest way to get contacted. See <a href="http://creative-solutions.net/wordpress/creative-contact-form/demo">Sexy Contact Form Demo</a>. 
 Author: Creative Solutions
 Author URI: http://creative-solutions.net/
-Version: 0.9.4
+Version: 0.9.6
 */
 
 //strat session
@@ -14,8 +14,8 @@ if (session_id() == '') {
 	//check
 }
 global $wpscf_db_version;
-$plugin_version = '0.9.4';
-$wpscf_db_version = '0.9.4';
+$plugin_version = '0.9.6';
+$wpscf_db_version = '0.9.6';
 
 define('WPSCF_PLUGINS_URL', plugins_url());
 define('WPSCF_FOLDER', basename(dirname(__FILE__)));

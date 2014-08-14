@@ -70,7 +70,7 @@ Use it and be happy!
 
 == Changelog ==
 
-= V 0.9.7 - 11/08/2014 =
+= V 0.9.7 - 14/08/2014 =
 * Changed Backlink styles
 * Fixed Javascript Bugs.
 * Changed allowed count of fields in free version.

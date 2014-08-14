@@ -48,12 +48,12 @@ It is packed with a Template Creator wizard to create fanstastic contact forms i
 > * Flexible File Upload: Multiple file selection, drag&drop support, costum file types support, customizable validation messages, upload max&min size, etc...
 > * Captcha support!
 > * Unlimited forms *(1 in free version)*!
-> * Unlimited fields *(5 in free version)*!
+> * Unlimited fields *(3 in free version)*!
 > * Multiple forms on same page!
 > * No Powered By text!
 > * PRO support!
 
-###IMPORTANT: If you think you found a bug in Sexy Contact Form or have any problem or question concerning it, do not hesitate to contact us at [info@creative-solutions.net](mailto:info@creative-solutions.net).
+###IMPORTANT: If you think you found a bug in Creative Contact Form or have any problem or question concerning it, do not hesitate to contact us at [info@creative-solutions.net](mailto:info@creative-solutions.net).
 
 
 ### Support:
@@ -64,11 +64,17 @@ Please `use` [Support Forum](http://creative-solutions.net/forum/creative-contac
 1. Upload the entire sexy-contact-form folder to the /wp-content/plugins/ directory, or upload the .zip package through Plugins->Add New->Upload.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
 
-You will find 'Sexy Contact Form' menu in your WordPress admin panel.
+You will find 'Creative Contact Form' menu in your WordPress admin panel.
 
 Use it and be happy!
 
 == Changelog ==
+
+= V 0.9.7 - 11/08/2014 =
+* Changed Backlink styles
+* Fixed Javascript Bugs.
+* Changed allowed count of fields in free version.
+* Corrected Template Creator Wizard bugs. Template Creator becomes a PRO feature. 
 
 = V 0.9.6 - 11/08/2014 =
 * Added white template

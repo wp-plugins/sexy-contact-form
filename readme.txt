@@ -1,12 +1,12 @@
 === Creative Contact Form - The Best WordPress Contact Form Builder ===
 Contributors: creative-solutions
 Author: creative-solutions
-Tags: admin, advanced form, AJAX, best contact form plugin, buddypress, category, comment, comments, contact, contact form, contact form 7, contact form builder, contact form plugin, contact forms, contact me, contact us, contacts, content, easy contact form, easy contact plugin, email, Facebook, feed, feedback, feedback form, form, form builder, forms, google, image, images, javascript, jquery, link, links, login, media, page, pages, plugin, Post, posts, request, rss, seo, shortcode, sidebar, stats, text, web form, wordpress, contact, form, contact form, contact forms, Attachment, contact form plugin, shortcode, contact form builder, form builder, shortcode form, contact us, easy, form solution, contact me, contacts, contacts form plugin, copy, feedback, feedback form, request, send, send copy, text, responsive, Responsive Contact Form, email, ajax, captcha, multilingual, post, Posts, widget, shortcode, sidebar, html5, html, css, css3, shortcode, network, social, society, text, javascript, jquery, plugin, plugins, page, pages, ajax, content, simple, wordpress,  iPad, iphone, mobile, secure, seo, tablet
+Tags: admin, advanced form, AJAX, best contact form plugin, buddypress, category, comment, comments, contact, contact form, contact form 7, contact form builder, contact form plugin, contact forms, contact me, contact us, contacts, content, easy contact form, easy contact plugin, email, Facebook, feed, feedback, feedback form, form, form builder, forms, google, image, images, javascript, jquery, link, links, login, media, page, pages, plugin, Post, posts, request, rss, seo, shortcode, sidebar, stats, text, web form, wordpress, contact, form, contact form, contact forms, Attachment, contact form plugin, shortcode, contact form builder, form builder, shortcode form, contact us, easy, form solution, contact me, contacts, contacts form plugin, copy, feedback, feedback form, request, send, send copy, text, responsive, Responsive Contact Form, email, ajax, captcha, multilingual, post, Posts, widget, shortcode, sidebar, html5, html, css, css3, shortcode, network, social, society, text, javascript, jquery, plugin, plugins, page, pages, ajax, content, simple, wordpress,  iPad, iphone, mobile, secure, seo, tablet, content, buddypress, Facebook, link, Share, social
 Requires at least: 3.6.1
 Tested up to: 4.0
 Stable tag: 0.9.7
 
-Creative Contact Form is a responsive contact form builder with amazing visual effects. Over 33,010+ sites are already using Creative Contact Form.
+Creative Contact Form is a responsive contact form builder with amazing visual effects. Over 33,090+ sites are already using Creative Contact Form.
 
 == Description ==
 

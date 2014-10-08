@@ -6,7 +6,7 @@ Requires at least: 3.6.1
 Tested up to: 4.0
 Stable tag: 0.9.7
 
-Creative Contact Form is a responsive contact form builder with amazing visual effects. Over 36,080+ sites are already using Creative Contact Form.
+Creative Contact Form is a responsive contact form builder with amazing visual effects. Over 36,180+ sites are already using Creative Contact Form.
 
 == Description ==
 

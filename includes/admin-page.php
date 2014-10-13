@@ -15,9 +15,9 @@ function wpscf_admin() {
 function wpscf_add_options_link() {
 	$icon_url=plugins_url( '/images/Box_tool_sexycontactform_16.png' , __FILE__ );
 	
-	add_menu_page('Sexy Contact Form', 'Sexy Contact Form', 'manage_options', 'sexycontactform', 'wpscf_admin', $icon_url);
+	add_menu_page('Creative Contact Form', 'Creative Contact Form', 'manage_options', 'sexycontactform', 'wpscf_admin', $icon_url);
 	
-	$page1 = add_submenu_page('sexycontactform', 'Sexy Contact Form Overview', 'Overview', 'manage_options', 'sexycontactform', 'wpscf_admin');
+	$page1 = add_submenu_page('sexycontactform', 'Creative Contact Form Overview', 'Overview', 'manage_options', 'sexycontactform', 'wpscf_admin');
 	$page2 = add_submenu_page('sexycontactform', 'Forms', 'Forms', 'manage_options', 'sexyforms', 'wpscf_admin');
 	$page3 = add_submenu_page('sexycontactform', 'Fields', 'Fields', 'manage_options', 'sexyfields', 'wpscf_admin');
 	$page4 = add_submenu_page('sexycontactform', 'Templates', 'Templates', 'manage_options', 'sexytemplates', 'wpscf_admin');

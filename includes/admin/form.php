@@ -34,6 +34,7 @@ $wpscf_shake_count = $id == 0 ? '2' : $row->shake_count;
 $wpscf_shake_distanse = $id == 0 ? '10' : $row->shake_distanse;
 $wpscf_shake_duration = $id == 0 ? '300' : $row->shake_duration;
 $wpscf_status = $id == 0 ? '1' : $row->published;
+$wpscf_show_back = $id == 0 ? '1' : $row->show_back;
 
 //getbtemplate sarray
 $sql = "SELECT name, id FROM ".$wpdb->prefix."sexy_contact_templates";
@@ -63,10 +64,10 @@ $sql = "SELECT COUNT(id) FROM ".$wpdb->prefix."sexy_forms";
 $count_forms = $wpdb->get_var($sql);
 if($id == 0 && $count_forms >= 1) {
 	?>
-	<div style="color: rgb(235, 9, 9);font-size: 16px;font-weight: bold;">Please Upgrade to PRO Version to have more than 1 Sexy Forms!</div>
+	<div style="color: rgb(235, 9, 9);font-size: 16px;font-weight: bold;">Please Upgrade to PRO Version to have more than 1 Forms!</div>
 	<div id="cpanel" style="float: left;">
 		<div class="icon" style="float: right;">
-			<a href="http://2glux.com/projects/sexy-contact-form" target="_blank" title="Buy PRO version">
+			<a href="http://creative-solutions.net/wordpress/creative-contact-form" target="_blank" title="Buy PRO version">
 				<table style="width: 100%;height: 100%;text-decoration: none;">
 					<tr>
 						<td align="center" valign="middle">
@@ -78,6 +79,7 @@ if($id == 0 && $count_forms >= 1) {
 			</a>
 		</div>
 	</div>
+	<div style="font-style: italic;font-size: 12px;color: #949494;clear: both;">Updrading to PRO is easy, and will take only <u style="color: rgb(44, 66, 231);font-weight: bold;">5 minutes!</u></div>
 	<?php 
 }
 else {
@@ -125,7 +127,7 @@ else {
 		<td><input name="form_width" id="wpscf_form_width" type="text" value="<?php echo $wpscf_form_width;?>" class="required" /></td>	
 	</tr>
 	<tr>
-		<td><label for="wpscf_id_template" title="Template">Template <span style="color: red">*</span></label><br /><a href="http://2glux.com/projects/sexy-contact-form/demo" target="_blank">See Templates Demo</a></td>
+		<td><label for="wpscf_id_template" title="Template">Template <span style="color: red">*</span></label><br /><a href="http://creative-solutions.net/wordpress/creative-contact-form/demo" target="_blank">See Templates Demo</a></td>
 		<td>
 			<select id="wpscf_id_template" name="id_template">
 				<?php 
@@ -236,6 +238,16 @@ else {
 	</tr>
 	<tr>
 		<td style="height: 15px;" colspan="2"></td>
+	</tr>
+	<tr>
+		<td><label title="Additional anti-spam protection. If you got INVALID TOKEN message, set it to no.">Check Token</label></td>
+		<td>
+			<label for="wpscf_show_back_yes">Yes</label>
+			<input id="wpscf_show_back_yes" type="radio" name="show_back" value="1" <?php if($wpscf_show_back == 1) echo 'checked="checked"';?>  />
+			&nbsp;&nbsp;&nbsp;
+			<label for="wpscf_show_back_no">No</label>
+			<input id="wpscf_show_back_no" type="radio" name="show_back" value="0"  <?php if($wpscf_show_back == 0) echo 'checked="checked"';?>/>
+		</td>		
 	</tr>
 	<tr>
 		<td><label title="Status">Status</label></td>

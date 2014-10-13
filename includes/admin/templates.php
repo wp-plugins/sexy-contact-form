@@ -4,7 +4,7 @@ global $wpdb;
 $task = isset($_REQUEST['task']) ? $_REQUEST['task'] : '';
 $ids = isset($_REQUEST['ids']) ?  $_REQUEST['ids'] : array();
 $filter_state = isset($_REQUEST['filter_state']) ? (int) $_REQUEST['filter_state'] : 2;
-$filter_search = stripslashes(str_replace(array('\'','"'), '', trim($_REQUEST['filter_search'])));
+$filter_search = isset($_REQUEST['filter_search']) ? stripslashes(str_replace(array('\'','"'), '', trim($_REQUEST['filter_search']))) : '';
 
 //unpublish task
 if($task == 'unpublish') {

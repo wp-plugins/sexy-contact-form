@@ -306,7 +306,7 @@ cursor: text;
 padding: 3px 0px;
 border-radius: 4px;
 display: inline-block;
-width: 130px;
+width: 160px;
 }
 input.wpscf_shortcode[readonly="readonly"]:hover {
 font-weight: normal;

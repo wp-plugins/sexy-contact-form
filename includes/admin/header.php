@@ -1,11 +1,7 @@
 <div class="purchase_block">
-	<div class="purchase_block_txt">Get Sexy Contact Form Pro and gain access to unlimited fields, unlimited forms, more features and professional support.</div>
-    <a href="http://2glux.com/projects/sexy-contact-form" id="scf_buy_pro" target="_blank">Get Sexy Contact Form PRO</a>
-    <div class="pro_wrapper">
-		<a href="http://2glux.com"  target="_blank" title="2GLux" >
-			<img src="<?php echo plugins_url( '../images/gspeech_txt.png' , __FILE__ );?>" class="pro_img" />
-		</a>
-	</div>
+	<div class="purchase_block_txt">Get Creative Contact Form Commercial and gain access to <b style="color: rgb(9, 24, 201);">Unlimited Fields, Unlimited Forms, NO CopyRight, Professional Support.</b></div>
+    <a href="http://creative-solutions.net/wordpress/creative-contact-form" id="scf_buy_pro" target="_blank">Get Creative Contact Form Commercial</a>
+
 </div>
 <?php 
 $page = isset($_GET['page']) ? $_GET['page'] : 'sexycontactform';
@@ -28,7 +24,7 @@ switch ($page) {
 }
 ?>
     <div id="scf_logo" class="icon32"></div>
-    <h2>Sexy Contact Form : <?php echo $active_text;?></h2>
+    <h2>Creative Contact Form : <?php echo $active_text;?></h2>
     <p></p>
     <div id="scf-toolbar">
         <ul id="scf-toolbar-links">

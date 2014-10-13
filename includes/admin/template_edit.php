@@ -1,3 +1,6 @@
+<div style="color: rgb(235, 9, 9);font-size: 16px;font-weight: bold;text-align: center;">Please Upgrade to PRO Version to use Template Creator wizard!</div>
+<div style="font-style: italic;font-size: 12px;color: #949494;clear: both;text-align: center;">Updrading to PRO is easy, and will take only <u style="color: rgb(44, 66, 231);font-weight: bold;">5 minutes!</u></div>
+
 <?php 
 global $wpdb;
 
@@ -134,19 +137,23 @@ setInterval("refreshSession()", 60000);
 				if(roll == 0 || roll == 130) {
 					$(".sexycontactform_wrapper").css('backgroundColor' , '#' + hex);
 
-					var back = '-webkit-linear-gradient(top, ' + $("#elem-0").val() + ', '  + $("#elem-130").val() + ')';
-					$(".sexycontactform_wrapper").css('background' , back);
-					back = '-webkit-gradient(linear, 0% 0%, 0% 100%, from(' + $("#elem-0").val() + '), to('  + $("#elem-130").val() + '))';
-					$(".sexycontactform_wrapper").css('background' , back);
-					back = '-moz-linear-gradient(top, ' + $("#elem-0").val() + ', '  + $("#elem-130").val() + ')';
-					$(".sexycontactform_wrapper").css('background' , back);
-					back = '-ms-linear-gradient(top, ' + $("#elem-0").val() + ', '  + $("#elem-130").val() + ')';
-					$(".sexycontactform_wrapper").css('background' , back);
-					back = '-o-linear-gradient(top, ' + $("#elem-0").val() + ', '  + $("#elem-130").val() + ')';
-					$(".sexycontactform_wrapper").css('background' , back);
-					fil = ' progid:DXImageTransform.Microsoft.gradient(startColorstr=' + $("#elem-0").val() + ', endColorstr='  + $("#elem-130").val() + ')';
-					$(".sexycontactform_wrapper").css('filter' , fil);
+					$.browser = {};
+					$.browser.mozilla = /mozilla/.test(navigator.userAgent.toLowerCase()) && !/webkit/.test(navigator.userAgent.toLowerCase());
+					$.browser.webkit = /webkit/.test(navigator.userAgent.toLowerCase());
+					$.browser.opera = /opera/.test(navigator.userAgent.toLowerCase());
+					$.browser.msie = /msie/.test(navigator.userAgent.toLowerCase());
 
+					var back = '-webkit-linear-gradient(top, ' + $("#elem-0").val() + ', '  + $("#elem-130").val() + ')';
+					if($.browser.webkit) 
+						back = '-webkit-linear-gradient(top, ' + $("#elem-0").val() + ', '  + $("#elem-130").val() + ')';
+					else if($.browser.mozilla) 
+						back = '-moz-linear-gradient(top, ' + $("#elem-0").val() + ', '  + $("#elem-130").val() + ')';	
+					else if($.browser.opera) 
+						back = '-o-linear-gradient(top, ' + $("#elem-0").val() + ', '  + $("#elem-130").val() + ')';
+					if($.browser.msie) 
+						back = '-ms-linear-gradient(top, ' + $("#elem-0").val() + ', '  + $("#elem-130").val() + ')';
+
+					$(".sexycontactform_wrapper").css('background' , back);
 				}
 				else if(roll == 1) {
 					$(".sexycontactform_wrapper").css('borderColor' , '#' + hex);
@@ -1420,6 +1427,7 @@ function seperate_tr($txt,$title='') {
 	 <div id="preview_dummy"></div>
 	 
 	 <div class="preview_box">
+	 	<div style="text-align: center;color: rgb(54, 54, 54);margin: -5px;font-size: 14px;font-weight: bold;text-decoration: underline;">Template Creator Demo</div>
 	 	<div class="main_view">
 	
 	
@@ -1490,9 +1498,6 @@ function seperate_tr($txt,$title='') {
 	
 <form action="admin.php?page=sexytemplates&act=submit_data&holder=templates" method="post" id="wpscf_form">
 	<div style="float:right;">
-		<button  id="wpscf_form_save" class="button-primary">Save</button>
-		<button id="wpscf_form_save_close" class="button">Save & Close</button>
-		<button id="wpscf_form_save_new" class="button">Save & New</button>
 		<a href="admin.php?page=sexytemplates" id="wpscf_add" class="button">Close</a>
 	</div>
     <fieldset class="adminform" style="position: relative;">

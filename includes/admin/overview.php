@@ -44,12 +44,12 @@
 
 <div id="cpanel">
 	<div class="icon" style="float: right;">
-		<a href="http://2glux.com/projects/sexy-contact-form" target="_blank" title="">
+		<a href="http://creative-solutions.net/wordpress/creative-contact-form" target="_blank" title="">
 			<table style="width: 100%;height: 100%;text-decoration: none;">
 				<tr>
 					<td align="center" valign="middle">
 						<img src="<?php echo plugins_url( '../images/shopping_cart.png' , __FILE__ );?>" /><br />
-						Buy Pro Version
+						Buy Commercial Version
 					</td>
 				</tr>
 			</table>
@@ -58,7 +58,7 @@
 </div>
 <div id="cpanel">
 	<div class="icon" style="float: right;">
-		<a href="http://2glux.com/forum/simple-contact-form/" target="_blank" title="">
+		<a href="http://creative-solutions.net/forum/creative-contact-form-wordpress/" target="_blank" title="">
 			<table style="width: 100%;height: 100%;text-decoration: none;">
 				<tr>
 					<td align="center" valign="middle">
@@ -72,7 +72,7 @@
 </div>
 <div id="cpanel">
 	<div class="icon" style="float: right;">
-		<a href="http://2glux.com/projects/sexy-contact-form" target="_blank" title="">
+		<a href="http://creative-solutions.net/wordpress/creative-contact-form" target="_blank" title="">
 			<table style="width: 100%;height: 100%;text-decoration: none;">
 				<tr>
 					<td align="center" valign="middle">

@@ -40,12 +40,12 @@ $wpscf_captcha_wrong_message = $id == 0 || $row->captcha_wrong_message == '' ? '
 <?php 
 $sql = "SELECT COUNT(id) FROM ".$wpdb->prefix."sexy_fields";
 $count_fields = $wpdb->get_var($sql);
-if($id == 0 && $count_fields >= 5) {
+if($id == 0 && $count_fields >= 3) {
 	?>
-	<div style="color: rgb(235, 9, 9);font-size: 16px;font-weight: bold;">Please Upgrade to PRO Version to have more than 5 Sexy Fields!</div>
+	<div style="color: rgb(235, 9, 9);font-size: 16px;font-weight: bold;">Please Upgrade to PRO Version to have more than 3 Fields!</div>
 	<div id="cpanel" style="float: left;">
 		<div class="icon" style="float: right;">
-			<a href="http://2glux.com/projects/sexy-contact-form" target="_blank" title="Buy PRO version">
+			<a href="http://creative-solutions.net/wordpress/creative-contact-form" target="_blank" title="Buy PRO version">
 				<table style="width: 100%;height: 100%;text-decoration: none;">
 					<tr>
 						<td align="center" valign="middle">
@@ -57,6 +57,7 @@ if($id == 0 && $count_fields >= 5) {
 			</a>
 		</div>
 	</div>
+	<div style="font-style: italic;font-size: 12px;color: #949494;clear: both;">Updrading to PRO is easy, and will take only <u style="color: rgb(44, 66, 231);font-weight: bold;">5 minutes!</u></div>
 	<?php 
 }
 else {

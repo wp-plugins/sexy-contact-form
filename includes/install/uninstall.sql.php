@@ -1,6 +1,6 @@
 <?php 
 global $wpdb;
-delete_option('wpscf_settings');
+delete_option('wpscf_db_version');
 
 require_once(ABSPATH . '/wp-admin/includes/upgrade.php');
 

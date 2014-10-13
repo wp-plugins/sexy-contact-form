@@ -4,7 +4,7 @@ global $wpdb;
 $task = isset($_REQUEST['task']) ? $_REQUEST['task'] : '';
 $ids = isset($_REQUEST['ids']) ?  $_REQUEST['ids'] : array();
 $filter_state = isset($_REQUEST['filter_state']) ? (int) $_REQUEST['filter_state'] : 2;
-$filter_search = stripslashes(str_replace(array('\'','"'), '', trim($_REQUEST['filter_search'])));
+$filter_search = isset($_REQUEST['filter_search']) ? stripslashes(str_replace(array('\'','"'), '', trim($_REQUEST['filter_search']))) : '';
 
 //unpublish task
 if($task == 'unpublish') {
@@ -134,7 +134,7 @@ $rows = $wpdb->get_results($sql);
 						<a href="admin.php?page=sexyforms&act=edit&id=<?php echo $row->id;?>"><?php echo $row->name; ?></a>
 					</td>
 					<td valign="middle" align="left" style="vertical-align: middle;">
-						<input class="wpscf_shortcode" value='[sexyform id=&quot;<?php echo $row->id;?>&quot;]' onclick="this.select()" readonly="readonly" />
+						<input class="wpscf_shortcode" value='[creativeform id=&quot;<?php echo $row->id;?>&quot;]' onclick="this.select()" readonly="readonly" />
 					</td>
 					<td valign="middle" align="left" style="vertical-align: middle;">
 						<a href="#"><?php echo $row->template_title; ?></a>

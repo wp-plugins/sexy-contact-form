@@ -6,7 +6,7 @@ $ids = isset($_REQUEST['ids']) ?  $_REQUEST['ids'] : array();
 $filter_state = isset($_REQUEST['filter_state']) ? (int) $_REQUEST['filter_state'] : 2;
 $filter_type = isset($_REQUEST['filter_type']) ? (int) $_REQUEST['filter_type'] : 0;
 $filter_form = isset($_REQUEST['filter_form']) ? (int) $_REQUEST['filter_form'] : 0;
-$filter_search = stripslashes(str_replace(array('\'','"'), '', trim($_REQUEST['filter_search'])));
+$filter_search = isset($_REQUEST['filter_search']) ? stripslashes(str_replace(array('\'','"'), '', trim($_REQUEST['filter_search']))) : '';
 
 //unpublish task
 if($task == 'unpublish') {

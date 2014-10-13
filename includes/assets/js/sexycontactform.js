@@ -1497,5 +1497,6 @@ $(document).ready(function() {
 		if(is_sexy_ie) {
 			$('.sexycontactform_input_element,.sexycontactform_wrapper,.sexycontactform_send,.sexycontactform_send_new').css('border-radius','0');
 		};
+
 })
 })(jQuery);

@@ -1,15 +1,36 @@
 <?php
 global $wpdb;
 global $wpscf_token;
+$wpscf_token = '';
 
-add_action('template_redirect','wpscf_my_shortcode_head');
 
+
+function wpscf_sexyform_shortcode_function( $atts ) {
+	global $wpscf_token;
+	
+	extract( shortcode_atts( array(
+			'id' => 0,
+	), $atts ) );
+	
+	//set token
+	if($wpscf_token == '') {
+		$wpscf_token = md5(time() * rand(1000,9999));
+		$_SESSION['sexycontactform_token'] = $wpscf_token;
+	}
+
+	wpscf_enqueue_front_scripts($id);
+	return wpscf_render_form($id);
+
+}
+add_shortcode( 'creativeform', 'wpscf_sexyform_shortcode_function' );
+
+//add_action('template_redirect','wpscf_my_shortcode_head');
 function wpscf_my_shortcode_head(){
 	global $posts;
 	global $wpscf_token;
 	$pattern = get_shortcode_regex();
-	preg_match('/(\[(sexyform) id="([0-9]+)"\])/s', $posts[0]->post_content, $matches);
-	if (is_array($matches) && $matches[2] == 'sexyform') {
+	preg_match('/(\[(creativeform) id="([0-9]+)"\])/s', $posts[0]->post_content, $matches);
+	if (is_array($matches) && $matches[2] == 'creativeform') {
 		$form_id = (int) $matches[3];
 		wpscf_enqueue_front_scripts($form_id);
 		
@@ -69,20 +90,6 @@ function wpscf_enqueue_front_scripts($form_id) {
 	
 }
 
-add_filter('the_content','wpscf_render_sexycontactform');
-
-function wpscf_render_sexycontactform($content) {
-	$c = preg_replace_callback('/(\[sexyform id="([0-9]+)"\])/s','wpscf_make_form',$content);
-	return $c;
-	
-
-}
-
-function wpscf_make_form($m) {
-	$form_id = (int) $m[2];
-	return wpscf_render_form($form_id);
-}
-
 function wpscf_render_form($form_id) {
 	global $wpdb;
 	global $wpscf_token;
@@ -104,7 +111,7 @@ function wpscf_render_form($form_id) {
 	else { 
 		$REMOTE_ADDR = 'Unknown';
 	}
-	
+
 	//get field types array
 	$query = "
 				SELECT

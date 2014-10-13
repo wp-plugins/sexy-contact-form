@@ -831,7 +831,7 @@ img.sexy_captcha {
 	font-style: italic !important;
 	float: none !important;
 	display: block !important;
-	margin: 4px 0px 0px 0px !important;
+	margin: 10px 0px 0px 0px !important;
 	padding: 0 !important;
 	font-weight: bold !important;
 	font-size: 12px !important;
@@ -846,6 +846,7 @@ img.sexy_captcha {
 	width: auto !important;
 	text-indent: 0px !important;
 	background: none !important;
+	z-index: 10 !important;
 }
 .sexycontactform_wrapper .powered_by a {
 	text-decoration: none !important;
@@ -864,12 +865,18 @@ img.sexy_captcha {
 	width: auto !important;
 	text-indent: 0px !important;
 	background: none !important;
+	z-index: 10 !important;
 }
 .sexycontactform_wrapper .powered_by a:hover {
 	text-decoration: none !important;
 }
 
 .sexycontactform_wrapper .powered_by {
+	-webkit-transition:  all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+
 	color: rgb(255, 255, 255);
 	text-shadow: 0px -1px 0px #333, 0px 2px 3px rgb(85, 75, 75) !important;
 }
@@ -877,16 +884,18 @@ img.sexy_captcha {
 	text-shadow: 0px -1px 0px #333, 0px 3px 3px rgb(85, 75, 75) !important;
 }
 .sexycontactform_wrapper .powered_by a {
-	color: rgb(199, 221, 253);
-	text-shadow: 0px -1px 0px rgba(19, 19, 19, 0.63), 0px 2px 3px rgba(32, 32, 32, 0.78) !important
+	-webkit-transition:  all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+
+color: rgb(0, 122, 218);
+text-shadow: 0px -1px 0px rgba(19, 19, 19, 1), 0px 1px 0px rgba(255, 255, 255, 1) !important;
 }
 .sexycontactform_wrapper .powered_by:hover a  {
-	text-shadow: 0px -1px 0px #333, 0px 3px 3px rgb(85, 75, 75) !important;
+color: rgb(192, 1, 39);
+text-shadow: 0px -1px 0px rgba(19, 19, 19, 1), 0px 1px 0px rgba(255, 255, 255, 1) !important;
 }
 .sexycontactform_hidden {
 	display: none !important;
-}
-.sexycontactform_pre_hidden {
-	display: none !important;
-	overflow: hidden;
 }

@@ -35,7 +35,8 @@ $query = "
 				sp.`email_from`,
 				sp.`email_from_name`,
 				sp.`email_replyto`,
-				sp.`email_replyto_name`
+				sp.`email_replyto_name`,
+				sp.`show_back`
 			FROM
 				`".$wpdb->prefix."sexy_forms` sp
 			WHERE sp.published = '1'
@@ -83,8 +84,10 @@ if(is_array($types_array_data)) {
 	}
 }
 
+$check_token_enable = $form_data->show_back == 1 ? true : false;
+
 if($get_token == 0) {
-	if ($token != $session_token) {
+	if ($token != $session_token && $check_token_enable) {
 		echo '[{"invalid":"invalid_token"}]';
 	}
 	else if (!CAPTCHA_TESTED || $captcha_error) {
@@ -98,7 +101,7 @@ if($get_token == 0) {
 		$fromname = get_option( 'blogname', 'Wordpress site' );
 		$mailfrom = get_option( 'admin_email', '' );
 		if ($mailfrom == '') {
-			$info[] = 'Mail from not set in Joomla Global Configuration';
+			$info[] = 'Mail from not set in Global Configuration';
 		}
 		
 		//get email to
@@ -239,6 +242,7 @@ if($get_token == 0) {
 			echo '"info": ';
 			echo '[';
 			foreach ($info as $k => $data) {
+				$data = str_replace('"','',$data);
 				echo '"'.$data.'"';
 				if ($k != sizeof($info) - 1)
 					echo ',';

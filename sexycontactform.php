@@ -1,16 +1,21 @@
 <?php
 /*
-Plugin Name: Sexy Contact Form
-Plugin URI: http://2glux.com/projects/sexy-contact-form
-Description: The sexiest way to get contacted. See <a href="http://2glux.com/projects/sexy-contact-form/demo">Sexy Contact Form Demo</a>. 
-Author: 2GLux.com
-Author URI: http://2glux.com
-Version: 0.9.1
+Plugin Name: Creative Contact Form
+Plugin URI: http://creative-solutions.net/wordpress/creative-contact-form/
+Description: The Best WordPress Contact Form Builder. See <a href="http://creative-solutions.net/wordpress/creative-contact-form/demo">Creative Contact Form Demo</a>. 
+Author: Creative Solutions
+Author URI: http://creative-solutions.net/
+Version: 0.9.8
 */
-session_start();
-$plugin_version = '0.9.1';
-$wpscf_db_version = '0.9.1';
-$wpscf_options = get_option('wpscf_settings');
+
+//strat session
+if (session_id() == '') {
+	session_start();
+	//check
+}
+global $wpscf_db_version;
+$plugin_version = '0.9.8';
+$wpscf_db_version = '0.9.8';
 
 define('WPSCF_PLUGINS_URL', plugins_url());
 define('WPSCF_FOLDER', basename(dirname(__FILE__)));

@@ -70,6 +70,9 @@ Use it and be happy!
 
 == Changelog ==
 
+= V 1.0.0 - 27/10/2014 =
+* IMPORTANT: Fixed security bug!
+
 = V 0.9.7 - 14/08/2014 =
 * Changed Backlink styles
 * Fixed Javascript Bugs.

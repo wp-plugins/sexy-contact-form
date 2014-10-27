@@ -5,7 +5,7 @@ Plugin URI: http://creative-solutions.net/wordpress/creative-contact-form/
 Description: The Best WordPress Contact Form Builder. See <a href="http://creative-solutions.net/wordpress/creative-contact-form/demo">Creative Contact Form Demo</a>. 
 Author: Creative Solutions
 Author URI: http://creative-solutions.net/
-Version: 0.9.8
+Version: 1.0.0
 */
 
 //strat session
@@ -14,8 +14,8 @@ if (session_id() == '') {
 	//check
 }
 global $wpscf_db_version;
-$plugin_version = '0.9.8';
-$wpscf_db_version = '0.9.8';
+$plugin_version = '1.0.0';
+$wpscf_db_version = '1.0.0';
 
 define('WPSCF_PLUGINS_URL', plugins_url());
 define('WPSCF_FOLDER', basename(dirname(__FILE__)));

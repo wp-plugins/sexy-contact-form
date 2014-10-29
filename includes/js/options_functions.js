@@ -160,6 +160,12 @@ $(document).ready(function() {
 	$(".menu_tree div.hide").live('click', function()
 	{
 		id = $(this).attr("menu_id");
+
+		if(id == 0) {
+			$("#menu_id").addClass('seperated_element');
+			//window.location.reload();
+		}
+
 		$("#menu_id").val(id);
 		
 		$("#edit_menu_data").dialog({modal: true,width:300,height: 150,title:'Unpublish option'});

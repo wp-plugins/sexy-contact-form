@@ -37,6 +37,8 @@ if(isset($_GET['act']) && $_GET['act'] == 'submit_data') {
 	elseif(isset($_GET['holder']) && $_GET['holder'] == 'generate_css')
 		include('includes/generate.css.php');
 	elseif(isset($_GET['holder']) && $_GET['holder'] == 'generate_js')
+		include('includes/generate.js.php');	
+	elseif(isset($_GET['holder']) && $_GET['holder'] == 'generate_js_after_request')
 		include('includes/generate.js.php');
 	exit();
 }

@@ -42,8 +42,11 @@ It is packed with a Template Creator wizard to create fanstastic contact forms i
 > * 6 beautiful skins. *[See demo](http://creative-solutions.net/wordpress/creative-contact-form/demo)*
 > * Very easy to install and configure!
 
+### Other Creative Plugins:
+> * [Creative Image Slider](http://creative-solutions.net/wordpress/creative-image-slider/demo) 
+> * [GSpeech](http://creative-solutions.net/wordpress/gspeech)
 
-> #### **PRO features:**
+### PRO features:
 > * Template Creator Wizard!
 > * Flexible File Upload: Multiple file selection, drag&drop support, costum file types support, customizable validation messages, upload max&min size, etc...
 > * Captcha support!

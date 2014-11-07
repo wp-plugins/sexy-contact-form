@@ -42,9 +42,6 @@ It is packed with a Template Creator wizard to create fanstastic contact forms i
 > * 6 beautiful skins. *[See demo](http://creative-solutions.net/wordpress/creative-contact-form/demo)*
 > * Very easy to install and configure!
 
-### Other Creative Plugins:
-> * [Creative Image Slider](http://creative-solutions.net/wordpress/creative-image-slider/demo) 
-> * [GSpeech](http://creative-solutions.net/wordpress/gspeech)
 
 ### PRO features:
 > * Template Creator Wizard!
@@ -55,6 +52,11 @@ It is packed with a Template Creator wizard to create fanstastic contact forms i
 > * Multiple forms on same page!
 > * No Powered By text!
 > * PRO support!
+
+
+### Other Creative Plugins:
+> * **Creative Image Slider** [*WordPress Homepage*](https://wordpress.org/plugins/creative-image-slider/) | [*Live Demo*](http://creative-solutions.net/wordpress/creative-image-slider/demo)
+> * [GSpeech](http://creative-solutions.net/wordpress/gspeech)
 
 ###IMPORTANT: If you think you found a bug in Creative Contact Form or have any problem or question concerning it, do not hesitate to contact us at [info@creative-solutions.net](mailto:info@creative-solutions.net).
 

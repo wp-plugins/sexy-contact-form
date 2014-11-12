@@ -6,7 +6,7 @@ Requires at least: 3.6.1
 Tested up to: 4.0
 Stable tag: 1.0.0
 
-Creative Contact Form is a responsive contact form builder with amazing visual effects. Over 37,500+ sites are already using Creative Contact Form.
+Creative Contact Form is a responsive contact form builder with amazing visual effects. Over 39,000+ sites are already using Creative Contact Form.
 
 == Description ==
 
@@ -55,8 +55,8 @@ It is packed with a Template Creator wizard to create fanstastic contact forms i
 
 
 ### Other Creative Plugins:
-> * **Creative Image Slider** [*WordPress Homepage*](https://wordpress.org/plugins/creative-image-slider/) | [*Live Demo*](http://creative-solutions.net/wordpress/creative-image-slider/demo)
-> * [GSpeech](http://creative-solutions.net/wordpress/gspeech)
+> * [Creative Image Slider](https://wordpress.org/plugins/creative-image-slider/) - Powerful WordPress slider! [Live Demo](http://creative-solutions.net/wordpress/creative-image-slider/demo)
+> * [GSpeech](https://wordpress.org/plugins/gspeech/) - Speaks any text in your site! [Live Demo](http://creative-solutions.net/wordpress/gspeech/demo)
 
 ###IMPORTANT: If you think you found a bug in Creative Contact Form or have any problem or question concerning it, do not hesitate to contact us at [info@creative-solutions.net](mailto:info@creative-solutions.net).
 

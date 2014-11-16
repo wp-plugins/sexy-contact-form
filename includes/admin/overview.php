@@ -49,7 +49,7 @@
 				<tr>
 					<td align="center" valign="middle">
 						<img src="<?php echo plugins_url( '../images/shopping_cart.png' , __FILE__ );?>" /><br />
-						Buy Commercial Version
+						Buy Commercial Version!
 					</td>
 				</tr>
 			</table>
@@ -77,7 +77,7 @@
 				<tr>
 					<td align="center" valign="middle">
 						<img src="<?php echo plugins_url( '../images/project.png' , __FILE__ );?>" /><br />
-						Homepage
+						Project Homepage
 					</td>
 				</tr>
 			</table>

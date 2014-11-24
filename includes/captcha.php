@@ -86,6 +86,9 @@ class SimpleCaptcha {
     /** Horizontal line through the text */
     public $lineWidth = 0;
 
+    /** Electro spacing between lines */
+    public $elekticSpacing = 0;
+
     /**
      * Font configuration
      *

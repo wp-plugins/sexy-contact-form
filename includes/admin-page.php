@@ -37,20 +37,20 @@ function wpscf_load_overview_scripts() {
 	wp_enqueue_style('wpscf-styles10', plugin_dir_url( __FILE__ ) . 'css/admin.css');
 }
 function wpscf_load_forms_scripts() {
-	wp_enqueue_style('wpgs-styles9', plugin_dir_url( __FILE__ ) . 'css/ui-lightness/jquery-ui-1.10.1.custom.css');
-	wp_enqueue_style('wpscf-styles10', plugin_dir_url( __FILE__ ) . 'css/admin.css');
+	wp_enqueue_style('wpgs-styles1', plugin_dir_url( __FILE__ ) . 'css/ui-lightness/jquery-ui-1.10.1.custom.css');
+	wp_enqueue_style('wpscf-styles2', plugin_dir_url( __FILE__ ) . 'css/admin.css');
 
-	wp_enqueue_script('wpscf-script14', plugin_dir_url( __FILE__ ) . 'js/admin.js', array('jquery','jquery-ui-core','jquery-ui-sortable', 'jquery-ui-dialog','jquery-ui-tabs'));
-	//wp_enqueue_script('wpscf-script15', plugin_dir_url( __FILE__ ) . 'js/admin.js',array('jquery','jquery-ui-core','jquery-ui-accordion','jquery-ui-tabs','jquery-ui-slider'));
+	wp_enqueue_script('wpscf-script3', plugin_dir_url( __FILE__ ) . 'js/admin.js', array('jquery','jquery-ui-core','jquery-ui-sortable', 'jquery-ui-dialog','jquery-ui-tabs'));
+	//wp_enqueue_script('wpscf-script4', plugin_dir_url( __FILE__ ) . 'js/admin.js',array('jquery','jquery-ui-core','jquery-ui-accordion','jquery-ui-tabs','jquery-ui-slider'));
 }
 function wpscf_load_fields_scripts() {
-	wp_enqueue_style('wpgs-styles9', plugin_dir_url( __FILE__ ) . 'css/ui-lightness/jquery-ui-1.10.1.custom.css');
-	wp_enqueue_style('wpscf-styles10', plugin_dir_url( __FILE__ ) . 'css/admin.css');
-	wp_enqueue_style('wpscf-styles11', plugin_dir_url( __FILE__ ) . 'css/options_styles.css');
+	wp_enqueue_style('wpgs-styles1', plugin_dir_url( __FILE__ ) . 'css/ui-lightness/jquery-ui-1.10.1.custom.css');
+	wp_enqueue_style('wpscf-styles2', plugin_dir_url( __FILE__ ) . 'css/admin.css');
+	wp_enqueue_style('wpscf-styles3', plugin_dir_url( __FILE__ ) . 'css/options_styles.css');
 
-	wp_enqueue_script('wpscf-script14', plugin_dir_url( __FILE__ ) . 'js/admin.js', array('jquery'));
-	//wp_enqueue_script('wpscf-script15', plugin_dir_url( __FILE__ ) . 'js/admin.js',array('jquery','jquery-ui-core','jquery-ui-accordion','jquery-ui-tabs','jquery-ui-slider'));
-	wp_enqueue_script('wpscf-script15', plugin_dir_url( __FILE__ ) . 'js/options_functions.js',array('jquery','jquery-ui-core','jquery-ui-sortable', 'jquery-ui-dialog','jquery-ui-tabs'));
+	wp_enqueue_script('wpscf-script4', plugin_dir_url( __FILE__ ) . 'js/admin.js', array('jquery'));
+	//wp_enqueue_script('wpscf-script5', plugin_dir_url( __FILE__ ) . 'js/admin.js',array('jquery','jquery-ui-core','jquery-ui-accordion','jquery-ui-tabs','jquery-ui-slider'));
+	wp_enqueue_script('wpscf-script6', plugin_dir_url( __FILE__ ) . 'js/options_functions.js',array('jquery','jquery-ui-core','jquery-ui-sortable', 'jquery-ui-dialog','jquery-ui-tabs'));
 }
 function wpscf_load_template_scripts() {
 	wp_enqueue_style('wpgs-styles1', plugin_dir_url( __FILE__ ) . 'css/ui-lightness/jquery-ui-1.10.1.custom.css');

@@ -17,7 +17,7 @@ It is packed with a Template Creator wizard to create fanstastic contact forms i
 > * [Homepage](http://creative-solutions.net/wordpress/creative-contact-form) 
 > * [Live Demo](http://creative-solutions.net/wordpress/creative-contact-form/demo)  
 > * [Template Creator Demo](http://creative-solutions.net/wordpress/creative-contact-form/template-creator-demo)   
-> * [Support Forum](http://creative-solutions.net/forum/creative-contact-form-wordpress/)  
+> * [Support Forum](http://forum.creative-solutions.net/creative-contact-form-wordpress/)  
 
 > *Temporary* **BIG SALES** *on PRO version!* *[Check Now](http://creative-solutions.net/wordpress/creative-contact-form)*
 

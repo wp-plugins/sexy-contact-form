@@ -114,6 +114,8 @@ class SimpleCaptcha {
     public $Yamplitude = 14;
     public $Xperiod    = 11;
     public $Xamplitude = 5;
+    public $XmigarteRatio = 7;
+    public $YmigarteRatio = 12;
 
     /** letter rotation clockwise */
     public $maxRotation = 8;
@@ -317,6 +319,21 @@ class SimpleCaptcha {
             imageline($this->im, $x1, $y1+$i, $x2, $y2+$i, $this->GdFgColor);
         }
     }
+
+    /**
+     * Reduce the image to the final size
+     */
+    protected function ResizeImage() {
+        $imResampled = imagecreatetruecolor($this->width, $this->height);
+        imagecopyresampled($imResampled, $this->im,
+            0, 0, 0, 0,
+            $this->width, $this->height,
+            $this->width*$this->scale, $this->height*$this->scale
+        );
+        imagedestroy($this->im);
+        $this->resized = $imResampled;
+    }
+
 
     /**
      * Text insertion

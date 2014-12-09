@@ -19,8 +19,6 @@ It is packed with a Template Creator wizard to create fanstastic contact forms i
 > * [Template Creator Demo](http://creative-solutions.net/wordpress/creative-contact-form/template-creator-demo)   
 > * [Support Forum](http://forum.creative-solutions.net/creative-contact-form-wordpress/)  
 
-> *Temporary* **BIG SALES** *on PRO version!* *[Check Now](http://creative-solutions.net/wordpress/creative-contact-form)*
-
 ### Main Fetures:
 > * All texts are fully customizable. You can controll them throgh wp-admin. No need to modify text files!
 > * Template-Creator wizard - It is packed with a template-creator wizard to create fantastic forms in a matter of seconds without coding.(*PRO version*).*[See Demo](http://creative-solutions.net/wordpress/creative-contact-form/template-creator-demo)*

@@ -227,6 +227,24 @@ $(document).ready(function() {
 			return false;
 		}
 	});
+
+	//function to make adittional checkings forms form
+	function wpscf_validate_adds_form() {
+		var tested = true;
+		$("#wpscf_form").find('.required').each(function() {
+			var val = $.trim($(this).val());
+			if(val == '') {
+				$(this).addClass('wpscf_error');
+				tested = false;
+			}
+			else
+				$(this).removeClass('wpscf_error');
+		});
+		if(tested)
+			return true;
+		else
+			return false;
+	};
 	
 					
 });

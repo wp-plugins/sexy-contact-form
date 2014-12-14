@@ -233,7 +233,7 @@ $(document).ready(function() {
 		var tested = true;
 		$("#wpscf_form").find('.required').each(function() {
 			var val = $.trim($(this).val());
-			if(val == '') {
+			if(val == '' && val != 'empty') {
 				$(this).addClass('wpscf_error');
 				tested = false;
 			}

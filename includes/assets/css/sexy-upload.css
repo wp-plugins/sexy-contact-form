@@ -56,6 +56,16 @@
 	-o-transition: background-position 0.1s linear;
 	transition: background-position 0.1s linear;
 }
+.sexy_fileupload_m_hovered {
+	color: #ffffff;
+	background-color: #51a351;
+	text-decoration: none;
+	background-position: 0 -15px;
+	-webkit-transition: background-position 0.1s linear;
+	-moz-transition: background-position 0.1s linear;
+	-o-transition: background-position 0.1s linear;
+	transition: background-position 0.1s linear;
+}
 .sexy_fileupload:active {
 	outline: none;
 	color: #ffffff;

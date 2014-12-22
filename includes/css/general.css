@@ -73,6 +73,19 @@ select.accesstable {
 	display: none;
 }
 
+/*Intro Table*/
+table.into_table {
+    border-collapse: collapse;
+    font-size: 1.091em;
+    width: 100%;
+    -moz-box-sizing: border-box;
+    border-spacing: 2px;
+    display: table;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-indent: 0;
+}
+
 ul.accesstable-legend {
 	font-size: 1.091em;
     list-style: none outside none;

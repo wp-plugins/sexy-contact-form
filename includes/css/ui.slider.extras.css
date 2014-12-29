@@ -118,3 +118,14 @@
 	display: none;
 }
 
+.ui-slider .ui-state-active .ui-slider-tooltip.elem-odd{
+	display: block;
+	position: absolute;
+	bottom: 2.5em;
+	text-align: center;
+	padding: .3em .2em .4em;
+	font-size: .9em;
+	width: 8em;
+	margin-left: -3.7em;
+}
+

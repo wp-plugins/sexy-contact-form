@@ -312,3 +312,9 @@ opacity: 0.99;
 width: 202px !important;
 padding: 4px 13px 5px 12px !important;
 }
+.the-tooltip.top_aligned_ex > .tooltip_inner:after {
+  border-bottom-color: transparent !important;
+  border-left-color: transparent !important;
+  border-right-color: transparent !important;
+  top: 100%;
+}

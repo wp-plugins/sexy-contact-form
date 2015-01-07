@@ -42,6 +42,18 @@ if($task == 'delete') {
 		}
 	}
 }
+//delete_rec
+if($task == 'delete_rec') {
+	if(is_array($ids)) {
+		foreach($ids as $id) {
+			$idk = (int)$id;
+			if($idk != 0) {
+				$sql = "DELETE FROM ".$wpdb->prefix."sexy_contact_templates WHERE `id` = '".$idk."'";
+				$wpdb->query($sql);
+			}
+		}
+	}
+}
 
 //get the rows
 $sql = 

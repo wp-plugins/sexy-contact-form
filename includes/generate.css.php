@@ -314,3 +314,22 @@ foreach ($styles_array as $val) {
 	
 	border-top: <?php echo $styles[194];?>px <?php echo $styles[196];?> <?php echo $styles[195];?>;
 }
+
+.sexy_form_<?php echo $id_form;?> .sexycontactform_danger
+	-webkit-border-top-left-radius: <?php echo $styles[137];?>px;
+	-moz-border-radius-topleft: <?php echo $styles[137];?>px;
+	border-top-left-radius: <?php echo $styles[137];?>px;
+	
+	-webkit-border-top-right-radius: <?php echo $styles[138];?>px;
+	-moz-border-radius-topright: <?php echo $styles[138];?>px;
+	border-top-right-radius: <?php echo $styles[138];?>px;
+	
+	background: -ms-linear-gradient(top, <?php echo $styles[176];?>, <?php echo $styles[177];?>);/* IE 10 */
+	background: -o-linear-gradient(top, <?php echo $styles[176];?>, <?php echo $styles[177];?>);/* Opera 11.10+ */
+	
+	-moz-box-shadow: <?php echo $styles[185];?> <?php echo $styles[186];?>px <?php echo $styles[187];?>px <?php echo $styles[188];?>px <?php echo $styles[189];?>px  <?php echo $styles[184];?>;	
+	-webkit-box-shadow: <?php echo $styles[185];?> <?php echo $styles[186];?>px <?php echo $styles[187];?>px <?php echo $styles[188];?>px <?php echo $styles[189];?>px  <?php echo $styles[184];?>;		
+	box-shadow: <?php echo $styles[185];?> <?php echo $styles[186];?>px <?php echo $styles[187];?>px <?php echo $styles[188];?>px <?php echo $styles[189];?>px  <?php echo $styles[184];?>;		
+	border-color: <?php echo $styles[178];?>;
+	
+}

@@ -333,3 +333,14 @@ foreach ($styles_array as $val) {
 	border-color: <?php echo $styles[178];?>;
 	
 }
+
+.sexy_form_<?php echo $id_form;?> .sexycontactform_elements_holder {
+	color: <?php echo $styles[31];?>;
+	font-size: <?php echo $styles[32];?>px;
+	font-style: <?php echo $styles[34];?>;
+	font-weight: <?php echo $styles[33];?>;
+	text-align: <?php echo $styles[36];?>;
+	text-decoration: <?php echo $styles[35];?>;
+	text-shadow: <?php echo $styles[38];?>px <?php echo $styles[39];?>px <?php echo $styles[40];?>px <?php echo $styles[37];?>;
+	margin:  <?php echo $styles[215];?>px  <?php echo $styles[216];?>px <?php echo $styles[217];?>px <?php echo $styles[218];?>px;
+}

@@ -66,6 +66,16 @@ color: #666;
 top: 4px;
 font-weight: bold;
 }
+.size_arrows_positioned {
+display: block;
+position: absolute;
+background: transparent url("../images/bg_size_arrows.png") 2px 1px no-repeat;
+width: 14px;
+height: 23px;
+left: 37px;
+top: 1px;
+cursor: pointer;
+}
 .text_area {
 	padding: 3px;
 	color: #666;

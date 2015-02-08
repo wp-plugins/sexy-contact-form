@@ -6,12 +6,13 @@ Requires at least: 3.6
 Tested up to: 4.1
 Stable tag: 1.0.0
 
-Creative Contact Form is a responsive contact form builder with amazing visual effects. Over 39,500+ sites are already using Creative Contact Form.
+Creative Contact Form is a responsive contact form builder with amazing visual effects. Over 46,000+ sites are already using Creative Contact Form.
 
 == Description ==
 
 [Creative Contact Form](http://creative-solutions.net/wordpress/creative-contact-form/) - You will be surprised by count of all the possible features!
 It is packed with a Template Creator wizard to create fanstastic contact forms in a matter of seconds without coding.
+Popular form types: Contact Form, Feedback Form, Application Forms, Surveys,  Reservation Form, Contact data page.
 
 ### Useful Links:
 > * [Homepage](http://creative-solutions.net/wordpress/creative-contact-form) 
@@ -23,7 +24,7 @@ It is packed with a Template Creator wizard to create fanstastic contact forms i
 > * All texts are fully customizable. You can controll them throgh wp-admin. No need to modify text files!
 > * Template-Creator wizard - It is packed with a template-creator wizard to create fantastic forms in a matter of seconds without coding.(*PRO version*).*[See Demo](http://creative-solutions.net/wordpress/creative-contact-form/template-creator-demo)*
 > * Flexible field types: *name, email, phone, address, url, number, textarea, select, multiple select, checkbox, radio.* **Captcha, File Upload** - *PRO version*.
-> * Completely new checkbox, radio selection effect, implemented special for "CREATIVE" extensions!
+> * Completely new checkbox, radio selection effect, implemented special for Creative Contsat Form!
 > * Load countries list *(239 countries)*.
 > * Flexible and user friendly interface for inputting checkbox,radio/select options.
 > * Set pre-checked/selected options for checkbox,radio/select types.

@@ -32,4 +32,8 @@
 	padding: 5px 10px;
 	font-style: italic;
 }
+#twoglux_ext_homepage {
+	overflow: hidden;
+	text-decoration: none;
+}
 </style>

@@ -26,6 +26,14 @@
 	height: 150px;
 	background: url(../images/colorpicker_overlay.png);
 }
+.colorpicker_color div.cfg_trigered {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 150px;
+	height: 150px;
+	background: url(../images/colorpicker_overlay.png);
+}
 .colorpicker_color div div {
 	position: absolute;
 	top: 0;
